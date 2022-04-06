@@ -1,0 +1,12 @@
+<view class="fenzhen" >
+  <!-- 使用iconfont中的图标
+  <text class="iconfont icon-tingzhenqi-copy">
+  </text> -->
+  <SearchInput></SearchInput> 
+</view>
+<navigator 
+wx:for="{{catesList}}"
+wx:key="name"
+>
+<image mode="widthFix" src="{{item.image_src}}"></image>
+</navigator>

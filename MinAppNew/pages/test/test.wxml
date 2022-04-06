@@ -1,0 +1,24 @@
+
+<view class="container">
+    <view class="userinfo">
+      <!-- 授权前 -->
+      <block wx:if="{{!hasUserInfo}}">
+        <button bindtap="getUserProfile"> 获取头像昵称 </button>
+      </block>
+      <!-- 授权后 -->
+      <block wx:else> 
+       <view class="users">
+        <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+       </view>
+      </block>
+    </view>
+  </view>
+  <view>
+    头像：<image src="{{avatarUrl}}"></image>
+    昵称：{{nickName}}
+    性别：
+    <block wx:if="{{gender==1}}">男</block>
+    <block wx:elif="{{gender==2}}">女</block>
+    <block wx:else="{{gender==0}}">未知</block>
+  </view>

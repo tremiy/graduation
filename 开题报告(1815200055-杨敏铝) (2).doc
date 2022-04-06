@@ -1,0 +1,2326 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?mso-application progid="Word.Document"?>
+<w:wordDocument xmlns:w="http://schemas.microsoft.com/office/word/2003/wordml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:sl="http://schemas.microsoft.com/schemaLibrary/2003/core" xmlns:aml="http://schemas.microsoft.com/aml/2001/core" xmlns:wx="http://schemas.microsoft.com/office/word/2003/auxHint" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:wsp="http://schemas.microsoft.com/office/word/2003/wordml/sp2" xmlns:ns0="http://schemas.openxmlformats.org/markup-compatibility/2006" w:macrosPresent="no" w:embeddedObjPresent="no" w:ocxPresent="no" xml:space="preserve">
+  <w:ignoreElements w:val="http://schemas.microsoft.com/office/word/2003/wordml/sp2"/>
+  <o:DocumentProperties>
+    <o:Title>开题报告</o:Title>
+    <o:Author>杨敏铝</o:Author>
+    <o:LastAuthor>acer</o:LastAuthor>
+    <o:Revision>29</o:Revision>
+    <o:TotalTime>25</o:TotalTime>
+    <o:LastPrinted>1899-12-30T00:00:00Z</o:LastPrinted>
+    <o:Created>2012-11-25T06:51:00Z</o:Created>
+    <o:LastSaved>2013-01-02T15:13:00Z</o:LastSaved>
+    <o:Pages>1</o:Pages>
+    <o:Words>190</o:Words>
+    <o:Characters>1085</o:Characters>
+    <o:Company>杨敏铝</o:Company>
+    <o:Lines>9</o:Lines>
+    <o:Paragraphs>2</o:Paragraphs>
+    <o:CharactersWithSpaces>1273</o:CharactersWithSpaces>
+    <o:Version>11.0000</o:Version>
+  </o:DocumentProperties>
+  <o:CustomDocumentProperties>
+    <o:KSOProductBuildVer dt:dt="string">2052-8.1.0.2998</o:KSOProductBuildVer>
+  </o:CustomDocumentProperties>
+  <w:fonts>
+    <w:defaultFonts w:ascii="Times New Roman" w:fareast="宋体" w:h-ansi="Times New Roman" w:cs="Times New Roman"/>
+    <w:font w:name="宋体">
+      <w:altName w:val="SimSun"/>
+      <w:panose-1 w:val="02010600030101010101"/>
+      <w:charset w:val="86"/>
+      <w:family w:val="Auto"/>
+      <w:pitch w:val="variable"/>
+      <w:sig w:usb-0="00000003" w:usb-1="288F0000" w:usb-2="00000016" w:usb-3="00000000" w:csb-0="00040001" w:csb-1="00000000"/>
+    </w:font>
+    <w:font w:name="华文细黑">
+      <w:charset w:val="86"/>
+      <w:family w:val="Roman"/>
+      <w:pitch w:val="variable"/>
+      <w:sig w:usb-0="00000287" w:usb-1="080F0000" w:usb-2="00000010" w:usb-3="00000000" w:csb-0="0004009F" w:csb-1="00000000"/>
+    </w:font>
+    <w:font w:name="楷体_GB2312">
+      <w:altName w:val="宋体"/>
+      <w:charset w:val="86"/>
+      <w:family w:val="Modern"/>
+      <w:pitch w:val="default"/>
+      <w:sig w:usb-0="00000001" w:usb-1="080E0000" w:usb-2="00000010" w:usb-3="00000000" w:csb-0="00040000" w:csb-1="00000000"/>
+    </w:font>
+    <w:font w:name="@宋体">
+      <w:panose-1 w:val="02010600030101010101"/>
+      <w:charset w:val="86"/>
+      <w:family w:val="Auto"/>
+      <w:pitch w:val="variable"/>
+      <w:sig w:usb-0="00000003" w:usb-1="288F0000" w:usb-2="00000016" w:usb-3="00000000" w:csb-0="00040001" w:csb-1="00000000"/>
+    </w:font>
+    <w:font w:name="@华文细黑">
+      <w:charset w:val="86"/>
+      <w:family w:val="Roman"/>
+      <w:pitch w:val="variable"/>
+      <w:sig w:usb-0="00000287" w:usb-1="080F0000" w:usb-2="00000010" w:usb-3="00000000" w:csb-0="0004009F" w:csb-1="00000000"/>
+    </w:font>
+    <w:font w:name="@楷体_GB2312">
+      <w:charset w:val="86"/>
+      <w:family w:val="Modern"/>
+      <w:pitch w:val="default"/>
+      <w:sig w:usb-0="00000001" w:usb-1="080E0000" w:usb-2="00000010" w:usb-3="00000000" w:csb-0="00040000" w:csb-1="00000000"/>
+    </w:font>
+  </w:fonts>
+  <w:lists>
+    <w:listDef w:listDefId="0">
+      <w:lsid w:val="0000000A"/>
+      <w:plt w:val="SingleLevel"/>
+      <w:tmpl w:val="0000000A"/>
+      <w:lvl w:ilvl="0">
+        <w:start w:val="1"/>
+        <w:lvlText w:val="%1．"/>
+        <w:lvlJc w:val="left"/>
+        <w:pPr>
+          <w:tabs>
+            <w:tab w:val="list" w:pos="495"/>
+          </w:tabs>
+          <w:ind w:left="495" w:hanging="495"/>
+        </w:pPr>
+        <w:rPr>
+          <w:rFonts w:hint="fareast"/>
+        </w:rPr>
+      </w:lvl>
+    </w:listDef>
+    <w:listDef w:listDefId="1">
+      <w:lsid w:val="0000000B"/>
+      <w:plt w:val="SingleLevel"/>
+      <w:tmpl w:val="0000000B"/>
+      <w:lvl w:ilvl="0">
+        <w:start w:val="1"/>
+        <w:lvlText w:val="%1．"/>
+        <w:lvlJc w:val="left"/>
+        <w:pPr>
+          <w:tabs>
+            <w:tab w:val="list" w:pos="480"/>
+          </w:tabs>
+          <w:ind w:left="480" w:hanging="480"/>
+        </w:pPr>
+        <w:rPr>
+          <w:rFonts w:hint="fareast"/>
+        </w:rPr>
+      </w:lvl>
+    </w:listDef>
+    <w:list w:ilfo="1">
+      <w:ilst w:val="0"/>
+    </w:list>
+    <w:list w:ilfo="2">
+      <w:ilst w:val="1"/>
+    </w:list>
+  </w:lists>
+  <w:styles>
+    <w:versionOfBuiltInStylenames w:val="4"/>
+    <w:latentStyles w:defLockedState="off" w:latentStyleCount="156"/>
+    <w:style w:type="paragraph" w:default="on" w:styleId="a">
+      <w:name w:val="Normal"/>
+      <wx:uiName wx:val="正文"/>
+      <w:rsid w:val="005E6917"/>
+      <w:pPr>
+        <w:widowControl w:val="off"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:rPr>
+        <wx:font wx:val="Times New Roman"/>
+        <w:kern w:val="2"/>
+        <w:sz w:val="21"/>
+        <w:sz-cs w:val="24"/>
+        <w:lang w:val="EN-US" w:fareast="ZH-CN" w:bidi="AR-SA"/>
+      </w:rPr>
+    </w:style>
+    <w:style w:type="character" w:default="on" w:styleId="a0">
+      <w:name w:val="Default Paragraph Font"/>
+      <wx:uiName wx:val="默认段落字体"/>
+      <w:semiHidden/>
+    </w:style>
+    <w:style w:type="table" w:default="on" w:styleId="a1">
+      <w:name w:val="Normal Table"/>
+      <wx:uiName wx:val="普通表格"/>
+      <w:semiHidden/>
+      <w:rPr>
+        <wx:font wx:val="Times New Roman"/>
+      </w:rPr>
+      <w:tblPr>
+        <w:tblInd w:w="0" w:type="dxa"/>
+        <w:tblCellMar>
+          <w:top w:w="0" w:type="dxa"/>
+          <w:left w:w="108" w:type="dxa"/>
+          <w:bottom w:w="0" w:type="dxa"/>
+          <w:right w:w="108" w:type="dxa"/>
+        </w:tblCellMar>
+      </w:tblPr>
+    </w:style>
+    <w:style w:type="list" w:default="on" w:styleId="a2">
+      <w:name w:val="No List"/>
+      <wx:uiName wx:val="无列表"/>
+      <w:semiHidden/>
+    </w:style>
+    <w:style w:type="paragraph" w:styleId="a3">
+      <w:name w:val="footer"/>
+      <wx:uiName wx:val="页脚"/>
+      <w:basedOn w:val="a"/>
+      <w:rsid w:val="005E6917"/>
+      <w:pPr>
+        <w:pStyle w:val="a3"/>
+        <w:tabs>
+          <w:tab w:val="center" w:pos="4153"/>
+          <w:tab w:val="right" w:pos="8306"/>
+        </w:tabs>
+        <w:snapToGrid w:val="off"/>
+        <w:jc w:val="left"/>
+      </w:pPr>
+      <w:rPr>
+        <wx:font wx:val="Times New Roman"/>
+        <w:sz w:val="18"/>
+        <w:sz-cs w:val="18"/>
+      </w:rPr>
+    </w:style>
+    <w:style w:type="paragraph" w:styleId="a4">
+      <w:name w:val="Plain Text"/>
+      <wx:uiName wx:val="纯文本"/>
+      <w:basedOn w:val="a"/>
+      <w:rsid w:val="005E6917"/>
+      <w:pPr>
+        <w:pStyle w:val="a4"/>
+      </w:pPr>
+      <w:rPr>
+        <w:rFonts w:ascii="宋体" w:h-ansi="Courier New"/>
+        <wx:font wx:val="Courier New"/>
+        <w:sz-cs w:val="20"/>
+      </w:rPr>
+    </w:style>
+    <w:style w:type="paragraph" w:styleId="a5">
+      <w:name w:val="Body Text Indent"/>
+      <wx:uiName wx:val="正文文本缩进"/>
+      <w:basedOn w:val="a"/>
+      <w:rsid w:val="005E6917"/>
+      <w:pPr>
+        <w:pStyle w:val="a5"/>
+        <w:ind w:left="-170" w:first-line="680"/>
+      </w:pPr>
+      <w:rPr>
+        <wx:font wx:val="Times New Roman"/>
+        <w:sz w:val="24"/>
+        <w:sz-cs w:val="20"/>
+      </w:rPr>
+    </w:style>
+    <w:style w:type="paragraph" w:styleId="a6">
+      <w:name w:val="header"/>
+      <wx:uiName wx:val="页眉"/>
+      <w:basedOn w:val="a"/>
+      <w:rsid w:val="005E6917"/>
+      <w:pPr>
+        <w:pStyle w:val="a6"/>
+        <w:pBdr>
+          <w:bottom w:val="single" w:sz="6" wx:bdrwidth="15" w:space="1" w:color="auto"/>
+        </w:pBdr>
+        <w:tabs>
+          <w:tab w:val="center" w:pos="4153"/>
+          <w:tab w:val="right" w:pos="8306"/>
+        </w:tabs>
+        <w:snapToGrid w:val="off"/>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:rPr>
+        <wx:font wx:val="Times New Roman"/>
+        <w:sz w:val="18"/>
+        <w:sz-cs w:val="18"/>
+      </w:rPr>
+    </w:style>
+    <w:style w:type="table" w:styleId="a7">
+      <w:name w:val="Table Grid"/>
+      <wx:uiName wx:val="网格型"/>
+      <w:basedOn w:val="a1"/>
+      <w:rsid w:val="003451E2"/>
+      <w:pPr>
+        <w:widowControl w:val="off"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:rPr>
+        <wx:font wx:val="Times New Roman"/>
+      </w:rPr>
+      <w:tblPr>
+        <w:tblInd w:w="0" w:type="dxa"/>
+        <w:tblBorders>
+          <w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+          <w:left w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+          <w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+          <w:right w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+          <w:insideH w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+          <w:insideV w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+        </w:tblBorders>
+        <w:tblCellMar>
+          <w:top w:w="0" w:type="dxa"/>
+          <w:left w:w="108" w:type="dxa"/>
+          <w:bottom w:w="0" w:type="dxa"/>
+          <w:right w:w="108" w:type="dxa"/>
+        </w:tblCellMar>
+      </w:tblPr>
+    </w:style>
+  </w:styles>
+  <w:shapeDefaults>
+    <o:shapedefaults v:ext="edit" spidmax="15362"/>
+    <o:shapelayout v:ext="edit">
+      <o:idmap v:ext="edit" data="1"/>
+    </o:shapelayout>
+  </w:shapeDefaults>
+  <w:bgPict>
+    <w:background w:bgcolor="white"/>
+  </w:bgPict>
+  <w:docPr>
+    <w:view w:val="print"/>
+    <w:zoom w:percent="110"/>
+    <w:doNotEmbedSystemFonts/>
+    <w:bordersDontSurroundHeader/>
+    <w:bordersDontSurroundFooter/>
+    <w:attachedTemplate w:val=""/>
+    <w:defaultTabStop w:val="420"/>
+    <w:drawingGridVerticalSpacing w:val="156"/>
+    <w:displayHorizontalDrawingGridEvery w:val="0"/>
+    <w:displayVerticalDrawingGridEvery w:val="2"/>
+    <w:punctuationKerning/>
+    <w:characterSpacingControl w:val="CompressPunctuation"/>
+    <w:webPageEncoding w:val="x-cp20936"/>
+    <w:optimizeForBrowser/>
+    <w:validateAgainstSchema w:val="off"/>
+    <w:saveInvalidXML w:val="off"/>
+    <w:ignoreMixedContent w:val="off"/>
+    <w:alwaysShowPlaceholderText w:val="off"/>
+    <w:doNotUnderlineInvalidXML/>
+    <w:hdrShapeDefaults>
+      <o:shapedefaults v:ext="edit" spidmax="15362"/>
+    </w:hdrShapeDefaults>
+    <w:footnotePr>
+      <w:footnote w:type="separator">
+        <w:p wsp:rsidR="00130B65" wsp:rsidRDefault="00130B65">
+          <w:r>
+            <w:separator/>
+          </w:r>
+        </w:p>
+      </w:footnote>
+      <w:footnote w:type="continuation-separator">
+        <w:p wsp:rsidR="00130B65" wsp:rsidRDefault="00130B65">
+          <w:r>
+            <w:continuationSeparator/>
+          </w:r>
+        </w:p>
+      </w:footnote>
+    </w:footnotePr>
+    <w:endnotePr>
+      <w:endnote w:type="separator">
+        <w:p wsp:rsidR="00130B65" wsp:rsidRDefault="00130B65">
+          <w:r>
+            <w:separator/>
+          </w:r>
+        </w:p>
+      </w:endnote>
+      <w:endnote w:type="continuation-separator">
+        <w:p wsp:rsidR="00130B65" wsp:rsidRDefault="00130B65">
+          <w:r>
+            <w:continuationSeparator/>
+          </w:r>
+        </w:p>
+      </w:endnote>
+    </w:endnotePr>
+    <w:compat>
+      <w:spaceForUL/>
+      <w:balanceSingleByteDoubleByteWidth/>
+      <w:doNotLeaveBackslashAlone/>
+      <w:ulTrailSpace/>
+      <w:doNotExpandShiftReturn/>
+      <w:adjustLineHeightInTable/>
+      <w:breakWrappedTables/>
+      <w:snapToGridInCell/>
+      <w:wrapTextWithPunct/>
+      <w:useAsianBreakRules/>
+      <w:dontGrowAutofit/>
+      <w:useFELayout/>
+    </w:compat>
+    <wsp:rsids>
+      <wsp:rsidRoot wsp:val="00172A27"/>
+      <wsp:rsid wsp:val="00022CBE"/>
+      <wsp:rsid wsp:val="000372D1"/>
+      <wsp:rsid wsp:val="00046754"/>
+      <wsp:rsid wsp:val="000E35F3"/>
+      <wsp:rsid wsp:val="00130B65"/>
+      <wsp:rsid wsp:val="00172A27"/>
+      <wsp:rsid wsp:val="00182866"/>
+      <wsp:rsid wsp:val="00225186"/>
+      <wsp:rsid wsp:val="00264877"/>
+      <wsp:rsid wsp:val="00274167"/>
+      <wsp:rsid wsp:val="00331856"/>
+      <wsp:rsid wsp:val="003451E2"/>
+      <wsp:rsid wsp:val="00346A33"/>
+      <wsp:rsid wsp:val="003526A8"/>
+      <wsp:rsid wsp:val="00353591"/>
+      <wsp:rsid wsp:val="003612ED"/>
+      <wsp:rsid wsp:val="0039464F"/>
+      <wsp:rsid wsp:val="00396F5E"/>
+      <wsp:rsid wsp:val="00521CE4"/>
+      <wsp:rsid wsp:val="005269B2"/>
+      <wsp:rsid wsp:val="005E6917"/>
+      <wsp:rsid wsp:val="00634EF0"/>
+      <wsp:rsid wsp:val="00701ADE"/>
+      <wsp:rsid wsp:val="007313A4"/>
+      <wsp:rsid wsp:val="007A4B1B"/>
+      <wsp:rsid wsp:val="008D45D1"/>
+      <wsp:rsid wsp:val="009E5311"/>
+      <wsp:rsid wsp:val="00AA6323"/>
+      <wsp:rsid wsp:val="00AB5139"/>
+      <wsp:rsid wsp:val="00AD53F2"/>
+      <wsp:rsid wsp:val="00B66DC1"/>
+      <wsp:rsid wsp:val="00BB459D"/>
+      <wsp:rsid wsp:val="00C8364D"/>
+      <wsp:rsid wsp:val="00DC159E"/>
+      <wsp:rsid wsp:val="00E163C7"/>
+      <wsp:rsid wsp:val="00E35760"/>
+      <wsp:rsid wsp:val="00EB5B53"/>
+      <wsp:rsid wsp:val="00EE5FFA"/>
+      <wsp:rsid wsp:val="00F818B7"/>
+      <wsp:rsid wsp:val="00F938C1"/>
+      <wsp:rsid wsp:val="00FA5736"/>
+      <wsp:rsid wsp:val="00FE35D3"/>
+    </wsp:rsids>
+  </w:docPr>
+  <w:body>
+    <wx:sect>
+      <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="003612ED">
+        <w:r>
+          <w:rPr>
+            <w:rFonts w:hint="fareast"/>
+            <wx:font wx:val="宋体"/>
+          </w:rPr>
+          <w:t>表</w:t>
+        </w:r>
+        <w:r>
+          <w:rPr>
+            <w:rFonts w:ascii="宋体" w:hint="fareast"/>
+            <wx:font wx:val="宋体"/>
+          </w:rPr>
+          <w:t>Ⅴ</w:t>
+        </w:r>
+        <w:r>
+          <w:rPr>
+            <w:rFonts w:hint="fareast"/>
+            <wx:font wx:val="宋体"/>
+          </w:rPr>
+          <w:t>—</w:t>
+        </w:r>
+        <w:r>
+          <w:rPr>
+            <w:rFonts w:hint="fareast"/>
+          </w:rPr>
+          <w:t>104</w:t>
+        </w:r>
+      </w:p>
+      <w:p wsp:rsidR="00274167" wsp:rsidRDefault="00274167">
+        <w:pPr>
+          <w:jc w:val="center"/>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="华文细黑"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:b/>
+            <w:sz w:val="52"/>
+            <w:sz-cs w:val="52"/>
+          </w:rPr>
+        </w:pPr>
+        <w:r>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="华文细黑" w:hint="fareast"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:b/>
+            <w:sz w:val="52"/>
+            <w:sz-cs w:val="52"/>
+          </w:rPr>
+          <w:t>广州大学</w:t>
+        </w:r>
+      </w:p>
+      <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="003612ED">
+        <w:pPr>
+          <w:jc w:val="center"/>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="华文细黑"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:b/>
+            <w:sz w:val="52"/>
+            <w:sz-cs w:val="52"/>
+          </w:rPr>
+        </w:pPr>
+        <w:r>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="华文细黑" w:hint="fareast"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:b/>
+            <w:sz w:val="52"/>
+            <w:sz-cs w:val="52"/>
+          </w:rPr>
+          <w:t>本科毕业论文开题报告</w:t>
+        </w:r>
+      </w:p>
+      <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="005E6917">
+        <w:pPr>
+          <w:spacing w:line="480" w:line-rule="auto"/>
+          <w:jc w:val="center"/>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:b/>
+            <w:sz w:val="52"/>
+          </w:rPr>
+        </w:pPr>
+      </w:p>
+      <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="005E6917">
+        <w:pPr>
+          <w:jc w:val="center"/>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:sz w:val="52"/>
+          </w:rPr>
+        </w:pPr>
+      </w:p>
+      <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="005E6917">
+        <w:pPr>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:sz w:val="52"/>
+          </w:rPr>
+        </w:pPr>
+      </w:p>
+      <w:tbl>
+        <w:tblPr>
+          <w:tblStyle w:val="a7"/>
+          <w:tblW w:w="0" w:type="auto"/>
+          <w:tblBorders>
+            <w:top w:val="none" w:sz="0" wx:bdrwidth="0" w:space="0" w:color="auto"/>
+            <w:left w:val="none" w:sz="0" wx:bdrwidth="0" w:space="0" w:color="auto"/>
+            <w:bottom w:val="none" w:sz="0" wx:bdrwidth="0" w:space="0" w:color="auto"/>
+            <w:right w:val="none" w:sz="0" wx:bdrwidth="0" w:space="0" w:color="auto"/>
+            <w:insideH w:val="none" w:sz="0" wx:bdrwidth="0" w:space="0" w:color="auto"/>
+            <w:insideV w:val="none" w:sz="0" wx:bdrwidth="0" w:space="0" w:color="auto"/>
+          </w:tblBorders>
+          <w:tblLook w:val="01E0"/>
+        </w:tblPr>
+        <w:tblGrid>
+          <w:gridCol w:w="2988"/>
+          <w:gridCol w:w="6242"/>
+        </w:tblGrid>
+        <w:tr wsp:rsidR="003451E2" wsp:rsidTr="00353591">
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="2988" w:type="dxa"/>
+            </w:tcPr>
+            <w:p wsp:rsidR="003451E2" wsp:rsidRDefault="003451E2" wsp:rsidP="00182866">
+              <w:pPr>
+                <w:jc w:val="right"/>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="宋体"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="44"/>
+                </w:rPr>
+              </w:pPr>
+              <w:r>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:hint="fareast"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="36"/>
+                </w:rPr>
+                <w:t>论文题目:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="6242" w:type="dxa"/>
+              <w:tcBorders>
+                <w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+              </w:tcBorders>
+            </w:tcPr>
+            <w:p wsp:rsidR="003451E2" wsp:rsidRPr="00E35760" wsp:rsidRDefault="003451E2" wsp:rsidP="003451E2">
+              <w:pPr>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="宋体"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="44"/>
+                </w:rPr>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00E35760">
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="36"/>
+                  <w:sz-cs w:val="20"/>
+                </w:rPr>
+                <w:t><![CDATA[基于国密的智慧医疗分诊系统]]></w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr wsp:rsidR="003451E2" wsp:rsidTr="00353591">
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="2988" w:type="dxa"/>
+            </w:tcPr>
+            <w:p wsp:rsidR="003451E2" wsp:rsidRDefault="003451E2" wsp:rsidP="00182866">
+              <w:pPr>
+                <w:jc w:val="right"/>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="宋体"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="44"/>
+                </w:rPr>
+              </w:pPr>
+              <w:r>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:hint="fareast"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="36"/>
+                </w:rPr>
+                <w:t>学    院:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="6242" w:type="dxa"/>
+              <w:tcBorders>
+                <w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+                <w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+              </w:tcBorders>
+            </w:tcPr>
+            <w:p wsp:rsidR="003451E2" wsp:rsidRPr="00E35760" wsp:rsidRDefault="003451E2">
+              <w:pPr>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="宋体"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="44"/>
+                </w:rPr>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00E35760">
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="36"/>
+                  <w:sz-cs w:val="20"/>
+                </w:rPr>
+                <w:t>数学与信息科学学院</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr wsp:rsidR="003451E2" wsp:rsidTr="00353591">
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="2988" w:type="dxa"/>
+            </w:tcPr>
+            <w:p wsp:rsidR="003451E2" wsp:rsidRDefault="003451E2" wsp:rsidP="00182866">
+              <w:pPr>
+                <w:jc w:val="right"/>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="宋体"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="44"/>
+                </w:rPr>
+              </w:pPr>
+              <w:r>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:hint="fareast"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="36"/>
+                </w:rPr>
+                <w:t>专    业:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="6242" w:type="dxa"/>
+              <w:tcBorders>
+                <w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+                <w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+              </w:tcBorders>
+            </w:tcPr>
+            <w:p wsp:rsidR="003451E2" wsp:rsidRPr="00E35760" wsp:rsidRDefault="003451E2">
+              <w:pPr>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="宋体"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="44"/>
+                </w:rPr>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00E35760">
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="36"/>
+                  <w:sz-cs w:val="20"/>
+                </w:rPr>
+                <w:t>信息与计算科学</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr wsp:rsidR="003451E2" wsp:rsidTr="00353591">
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="2988" w:type="dxa"/>
+            </w:tcPr>
+            <w:p wsp:rsidR="003451E2" wsp:rsidRDefault="003451E2" wsp:rsidP="00182866">
+              <w:pPr>
+                <w:jc w:val="right"/>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="宋体"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="44"/>
+                </w:rPr>
+              </w:pPr>
+              <w:r>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:hint="fareast"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="36"/>
+                </w:rPr>
+                <w:t>班    级:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="6242" w:type="dxa"/>
+              <w:tcBorders>
+                <w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+                <w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+              </w:tcBorders>
+            </w:tcPr>
+            <w:p wsp:rsidR="003451E2" wsp:rsidRPr="00E35760" wsp:rsidRDefault="003451E2">
+              <w:pPr>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="宋体"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="44"/>
+                </w:rPr>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00E35760">
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="36"/>
+                  <w:sz-cs w:val="20"/>
+                </w:rPr>
+                <w:t>信计182</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr wsp:rsidR="003451E2" wsp:rsidTr="00353591">
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="2988" w:type="dxa"/>
+            </w:tcPr>
+            <w:p wsp:rsidR="003451E2" wsp:rsidRDefault="003451E2" wsp:rsidP="00182866">
+              <w:pPr>
+                <w:jc w:val="right"/>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="宋体"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="44"/>
+                </w:rPr>
+              </w:pPr>
+              <w:r>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:hint="fareast"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="36"/>
+                </w:rPr>
+                <w:t>姓    名:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="6242" w:type="dxa"/>
+              <w:tcBorders>
+                <w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+                <w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+              </w:tcBorders>
+            </w:tcPr>
+            <w:p wsp:rsidR="003451E2" wsp:rsidRPr="00E35760" wsp:rsidRDefault="003451E2">
+              <w:pPr>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="宋体"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="44"/>
+                </w:rPr>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00E35760">
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="36"/>
+                  <w:sz-cs w:val="20"/>
+                </w:rPr>
+                <w:t>杨敏铝</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr wsp:rsidR="003451E2" wsp:rsidTr="00353591">
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="2988" w:type="dxa"/>
+            </w:tcPr>
+            <w:p wsp:rsidR="003451E2" wsp:rsidRDefault="003451E2" wsp:rsidP="00182866">
+              <w:pPr>
+                <w:jc w:val="right"/>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="宋体"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="44"/>
+                </w:rPr>
+              </w:pPr>
+              <w:r>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:hint="fareast"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="36"/>
+                </w:rPr>
+                <w:t>学    号:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="6242" w:type="dxa"/>
+              <w:tcBorders>
+                <w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+                <w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+              </w:tcBorders>
+            </w:tcPr>
+            <w:p wsp:rsidR="003451E2" wsp:rsidRPr="00E35760" wsp:rsidRDefault="003451E2">
+              <w:pPr>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="宋体"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="44"/>
+                </w:rPr>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00E35760">
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="36"/>
+                  <w:sz-cs w:val="20"/>
+                </w:rPr>
+                <w:t>1815200055</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr wsp:rsidR="003451E2" wsp:rsidTr="00353591">
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="2988" w:type="dxa"/>
+            </w:tcPr>
+            <w:p wsp:rsidR="003451E2" wsp:rsidRDefault="003451E2" wsp:rsidP="00182866">
+              <w:pPr>
+                <w:jc w:val="right"/>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="宋体"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="44"/>
+                </w:rPr>
+              </w:pPr>
+              <w:r>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:hint="fareast"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="36"/>
+                </w:rPr>
+                <w:t>指导教师:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="6242" w:type="dxa"/>
+              <w:tcBorders>
+                <w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+                <w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+              </w:tcBorders>
+            </w:tcPr>
+            <w:p wsp:rsidR="003451E2" wsp:rsidRPr="00E35760" wsp:rsidRDefault="003451E2">
+              <w:pPr>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="宋体"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="44"/>
+                </w:rPr>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00E35760">
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="36"/>
+                  <w:sz-cs w:val="20"/>
+                </w:rPr>
+                <w:t>周权</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr wsp:rsidR="003451E2" wsp:rsidTr="00353591">
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="2988" w:type="dxa"/>
+            </w:tcPr>
+            <w:p wsp:rsidR="003451E2" wsp:rsidRDefault="003451E2" wsp:rsidP="00182866">
+              <w:pPr>
+                <w:jc w:val="right"/>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="宋体"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="44"/>
+                </w:rPr>
+              </w:pPr>
+              <w:r>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:hint="fareast"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="36"/>
+                </w:rPr>
+                <w:t>填表日期:</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="6242" w:type="dxa"/>
+              <w:tcBorders>
+                <w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+                <w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+              </w:tcBorders>
+            </w:tcPr>
+            <w:p wsp:rsidR="003451E2" wsp:rsidRPr="00E35760" wsp:rsidRDefault="003451E2">
+              <w:pPr>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="宋体"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="44"/>
+                </w:rPr>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00E35760">
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="36"/>
+                  <w:sz-cs w:val="20"/>
+                </w:rPr>
+                <w:t>2022年03月06日</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+      </w:tbl>
+      <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="005E6917">
+        <w:pPr>
+          <w:ind w:first-line="3534"/>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="宋体"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:sz w:val="44"/>
+          </w:rPr>
+        </w:pPr>
+      </w:p>
+      <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="005E6917">
+        <w:pPr>
+          <w:ind w:first-line="3534"/>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="宋体"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:sz w:val="44"/>
+          </w:rPr>
+        </w:pPr>
+      </w:p>
+      <w:p wsp:rsidR="005269B2" wsp:rsidRDefault="003612ED">
+        <w:pPr>
+          <w:ind w:first-line="3534"/>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="宋体"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:sz w:val="44"/>
+          </w:rPr>
+        </w:pPr>
+        <w:r>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="宋体" w:hint="fareast"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:sz w:val="44"/>
+          </w:rPr>
+          <w:t>教务处</w:t>
+        </w:r>
+      </w:p>
+      <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="005269B2">
+        <w:pPr>
+          <w:ind w:first-line="3534"/>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="宋体"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:sz w:val="44"/>
+          </w:rPr>
+        </w:pPr>
+        <w:r>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="宋体"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:sz w:val="44"/>
+          </w:rPr>
+          <w:br w:type="page"/>
+        </w:r>
+      </w:p>
+      <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="003612ED">
+        <w:pPr>
+          <w:ind w:first-line="3534"/>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="宋体"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:b/>
+            <w:sz w:val="44"/>
+          </w:rPr>
+        </w:pPr>
+        <w:r>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="宋体" w:hint="fareast"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:b/>
+            <w:sz w:val="44"/>
+          </w:rPr>
+          <w:t>说 明</w:t>
+        </w:r>
+      </w:p>
+      <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="005E6917">
+        <w:pPr>
+          <w:ind w:first-line="3960"/>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="宋体"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:sz w:val="44"/>
+          </w:rPr>
+        </w:pPr>
+      </w:p>
+      <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="003612ED" wsp:rsidP="00AD53F2">
+        <w:pPr>
+          <w:spacing w:line="800" w:line-rule="exact"/>
+          <w:ind w:left-chars="-85" w:first-line-chars="200"/>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="宋体"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:sz w:val="32"/>
+          </w:rPr>
+        </w:pPr>
+        <w:r>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="宋体" w:hint="fareast"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:sz w:val="32"/>
+          </w:rPr>
+          <w:t>1.论文的开题报告是保证毕业论文质量的一个重要环节，为规范毕业论文的开题报告，特印发此表。</w:t>
+        </w:r>
+      </w:p>
+      <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="003612ED" wsp:rsidP="00AD53F2">
+        <w:pPr>
+          <w:spacing w:line="800" w:line-rule="exact"/>
+          <w:ind w:left-chars="-85" w:first-line-chars="200"/>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="宋体"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:i/>
+            <w:sz w:val="32"/>
+            <w:u w:val="thick"/>
+          </w:rPr>
+        </w:pPr>
+        <w:r>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="宋体" w:hint="fareast"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:sz w:val="32"/>
+          </w:rPr>
+          <w:t>2.学生应通过调研和资料搜集，主动与指导教师讨论，在指导教师的指导下，完成开题报告。</w:t>
+        </w:r>
+      </w:p>
+      <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="003612ED" wsp:rsidP="00AD53F2">
+        <w:pPr>
+          <w:spacing w:line="800" w:line-rule="exact"/>
+          <w:ind w:left-chars="-85" w:first-line-chars="200"/>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="宋体"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:i/>
+            <w:sz w:val="32"/>
+            <w:u w:val="thick"/>
+          </w:rPr>
+        </w:pPr>
+        <w:r>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="宋体" w:hint="fareast"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:sz w:val="32"/>
+          </w:rPr>
+          <w:t>3.此表填写一式三份，一份学院教务办留存，一份交指导教师，一份学生本人自存。</w:t>
+        </w:r>
+      </w:p>
+      <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="003612ED" wsp:rsidP="00AD53F2">
+        <w:pPr>
+          <w:spacing w:line="800" w:line-rule="exact"/>
+          <w:ind w:left-chars="-85" w:first-line-chars="200"/>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:i/>
+            <w:sz w:val="32"/>
+            <w:u w:val="thick"/>
+          </w:rPr>
+        </w:pPr>
+        <w:r>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="宋体" w:hint="fareast"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:sz w:val="32"/>
+          </w:rPr>
+          <w:t>4.开题报告需经指导教师审查同意，方可正式开始论文写作工作。</w:t>
+        </w:r>
+      </w:p>
+      <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="003612ED" wsp:rsidP="00AD53F2">
+        <w:pPr>
+          <w:spacing w:line="800" w:line-rule="exact"/>
+          <w:ind w:left-chars="-85" w:first-line-chars="200"/>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:i/>
+            <w:sz w:val="32"/>
+            <w:u w:val="thick"/>
+          </w:rPr>
+        </w:pPr>
+        <w:r>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="宋体" w:hint="fareast"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:sz w:val="32"/>
+          </w:rPr>
+          <w:t>5.本表由教务处负责解释。</w:t>
+        </w:r>
+      </w:p>
+      <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="005E6917">
+        <w:pPr>
+          <w:spacing w:line="800" w:line-rule="exact"/>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:sz w:val="32"/>
+          </w:rPr>
+        </w:pPr>
+      </w:p>
+      <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="005E6917">
+        <w:pPr>
+          <w:spacing w:line="800" w:line-rule="exact"/>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:sz w:val="32"/>
+          </w:rPr>
+        </w:pPr>
+      </w:p>
+      <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="005E6917">
+        <w:pPr>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:sz w:val="32"/>
+          </w:rPr>
+        </w:pPr>
+      </w:p>
+      <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="005E6917">
+        <w:pPr>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:sz w:val="32"/>
+          </w:rPr>
+        </w:pPr>
+      </w:p>
+      <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="005E6917">
+        <w:pPr>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:sz w:val="32"/>
+          </w:rPr>
+        </w:pPr>
+      </w:p>
+      <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="005E6917">
+        <w:pPr>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:sz w:val="32"/>
+          </w:rPr>
+        </w:pPr>
+      </w:p>
+      <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="005E6917">
+        <w:pPr>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:sz w:val="32"/>
+          </w:rPr>
+        </w:pPr>
+      </w:p>
+      <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="005E6917">
+        <w:pPr>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:sz w:val="32"/>
+          </w:rPr>
+        </w:pPr>
+      </w:p>
+      <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="003612ED">
+        <w:pPr>
+          <w:ind w:left="242"/>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:b/>
+            <w:sz w:val="36"/>
+          </w:rPr>
+        </w:pPr>
+        <w:r>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:hint="fareast"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:b/>
+            <w:sz w:val="36"/>
+          </w:rPr>
+          <w:t>一、选题的意义和研究现状</w:t>
+        </w:r>
+      </w:p>
+      <w:tbl>
+        <w:tblPr>
+          <w:tblW w:w="0" w:type="auto"/>
+          <w:tblBorders>
+            <w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+            <w:left w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+            <w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+            <w:right w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+            <w:insideH w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+            <w:insideV w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+          </w:tblBorders>
+          <w:tblLayout w:type="Fixed"/>
+        </w:tblPr>
+        <w:tblGrid>
+          <w:gridCol w:w="9108"/>
+        </w:tblGrid>
+        <w:tr wsp:rsidR="005E6917">
+          <w:trPr>
+            <w:trHeight w:val="6213"/>
+          </w:trPr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="9108" w:type="dxa"/>
+              <w:tcBorders>
+                <w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+              </w:tcBorders>
+            </w:tcPr>
+            <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="003612ED">
+              <w:pPr>
+                <w:listPr>
+                  <w:ilvl w:val="0"/>
+                  <w:ilfo w:val="1"/>
+                  <wx:t wx:val="1．" wx:wTabBefore="0" wx:wTabAfter="15"/>
+                  <wx:font wx:val="Times New Roman"/>
+                </w:listPr>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="32"/>
+                </w:rPr>
+              </w:pPr>
+              <w:r>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:hint="fareast"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="32"/>
+                </w:rPr>
+                <w:t>选题的目的、理论意义和现实意义</w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[随着科技的日益发展和微信的普及，小程序在慢慢地渗透入我们的生活，而轻巧便捷的小程序也提高了大众的生活水平。现在的医疗水平也逐渐提升，信息化的医疗服务需要跟上医疗技术的进步，因此利用小程序作为患者与医生的沟通桥梁，能够提升医疗服务效率，节省患者时间，使得整体的医疗系统更上一层楼。对于患者而言，线上预约挂号时需要“引导者”，为了避免无效挂号，小程序需要根据患者出现的症状进行合理的分诊[1][2]。]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[在这个信息爆炸的时代，个人信息泄露严重，对于医疗系统，个人信息的泄露会加重医患关系的矛盾，因此本研究在开发医疗分诊系统小程序的时候，需要使用国密算法对医患双方的个人信息进行加密保护。除了防止不法分子盗取个人隐私，从中谋取利润，防止黄牛倒卖号，破坏看病就医的秩序。]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[因此，为了简化医院就诊的流程[3][4]、优化资源的配置，提升服务质量，本研究将充分利用现有的医院信息平台，为患者提供预约排队挂号的服务，同时为了避免无效挂号、以及保护医患双方的隐私，本研究将基于国密算法SM2和SM9开发一个小程序版的医疗分诊系统。]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[]]></w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr wsp:rsidR="005E6917">
+          <w:trPr>
+            <w:trHeight w:val="70"/>
+          </w:trPr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="9108" w:type="dxa"/>
+              <w:tcBorders>
+                <w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+              </w:tcBorders>
+            </w:tcPr>
+            <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="003612ED">
+              <w:pPr>
+                <w:listPr>
+                  <w:ilvl w:val="0"/>
+                  <w:ilfo w:val="1"/>
+                  <wx:t wx:val="2．" wx:wTabBefore="0" wx:wTabAfter="15"/>
+                  <wx:font wx:val="Times New Roman"/>
+                </w:listPr>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="32"/>
+                </w:rPr>
+              </w:pPr>
+              <w:r>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:hint="fareast"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="32"/>
+                </w:rPr>
+                <w:t>与选题相关的国内外研究和发展概况</w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[关于大数据隐私保护的方法有很多，而国内外对于数据隐私的保护手段，其实是可从可信硬件和密码学两个方向入手，硬件手段主要是可信执行环境(Trusted Execution Environment)，而密码学手段主要有同态加密(Homomorphic Encryption，HE)、零知识证明(Zero-knowledge Proof，ZKP)以及安全多方计算(Multi-party Computation)。而国密算法在多个领域中都有着很好的应用，例如移动网络支付中可以使用国密算法进行加密[5]，对于银行等要求高数据安全的相关机构有着基于国密算法的数据存储[6][7]，但目前国内外对分诊系统的研究都是着重研究分诊的算法，并未对医患的数据进行有效的保护。]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[]]></w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+      </w:tbl>
+      <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="003612ED">
+        <w:pPr>
+          <w:ind w:left="242"/>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:b/>
+            <w:sz w:val="32"/>
+          </w:rPr>
+        </w:pPr>
+        <w:r>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:hint="fareast"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:b/>
+            <w:sz w:val="32"/>
+          </w:rPr>
+          <w:t>二、研究方案</w:t>
+        </w:r>
+      </w:p>
+      <w:tbl>
+        <w:tblPr>
+          <w:tblW w:w="0" w:type="auto"/>
+          <w:tblInd w:w="108" w:type="dxa"/>
+          <w:tblBorders>
+            <w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+            <w:left w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+            <w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+            <w:right w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+            <w:insideH w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+            <w:insideV w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+          </w:tblBorders>
+          <w:tblLayout w:type="Fixed"/>
+        </w:tblPr>
+        <w:tblGrid>
+          <w:gridCol w:w="9000"/>
+        </w:tblGrid>
+        <w:tr wsp:rsidR="005E6917">
+          <w:trPr>
+            <w:trHeight w:val="6216"/>
+          </w:trPr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="9000" w:type="dxa"/>
+            </w:tcPr>
+            <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="003612ED">
+              <w:pPr>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="32"/>
+                </w:rPr>
+              </w:pPr>
+              <w:r>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:hint="fareast"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="32"/>
+                </w:rPr>
+                <w:t>1．研究的基本内容及预期的结果（大纲）</w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[1.小程序的基本功能]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[(1)小程序的界面]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[(2)小程序的基本功能介绍]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[2.对医患双方基本信息的加密]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[(1)国密SM2、SM9算法的原理]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[(2)结合医患信息进行加密的过程]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[3.分诊的实现]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[(1)分诊的原理]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[(2)结合症状进行分诊的实现]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[4.测试]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[(1)对小程序基本功能的测试]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[(2)对分诊功能的测试]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[(3)对加密效果的测试]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[5.总结]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[]]></w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr wsp:rsidR="005E6917">
+          <w:trPr>
+            <w:trHeight w:val="4680"/>
+          </w:trPr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="9000" w:type="dxa"/>
+            </w:tcPr>
+            <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="003612ED">
+              <w:pPr>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:b/>
+                  <w:sz w:val="32"/>
+                </w:rPr>
+              </w:pPr>
+              <w:r>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:hint="fareast"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="32"/>
+                </w:rPr>
+                <w:t>2．拟采用的研究方法</w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[本课题主要运用了SM2和SM9的国密算法[8]。其中SM2是椭圆曲线公钥密码算法，SM2算法是一种更先进安全的算法，具有密码复杂度高、处理速度快、机器性能消耗小的特点；而SM9算法是一种基于标识的密码算法，由数字签名算法、标识加密算法、密钥协商协议三部分组成，具有无需证书、易于使用、易于管理、总体拥有成本低的特点。]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[]]></w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr wsp:rsidR="005E6917">
+          <w:trPr>
+            <w:trHeight w:val="6983"/>
+          </w:trPr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="9000" w:type="dxa"/>
+            </w:tcPr>
+            <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="003612ED">
+              <w:pPr>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="32"/>
+                </w:rPr>
+              </w:pPr>
+              <w:r>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:hint="fareast"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="32"/>
+                </w:rPr>
+                <w:t>3.研究所需条件和可能存在的问题</w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[本研究是基于微信小程序的基础之上，而开发基于国密的分诊系统的小程序时，需要考虑包括界面、网络、本地数据及缓存、设备硬件、微信开发接口、媒体、后端开发与设计等问题。在实际开发过程中，可能存在着调用python的API出错以及后期小程序的应用问题。]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[]]></w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+      </w:tbl>
+      <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="003612ED">
+        <w:pPr>
+          <w:ind w:left="242"/>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:b/>
+            <w:sz w:val="32"/>
+          </w:rPr>
+        </w:pPr>
+        <w:r>
+          <w:rPr>
+            <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:hint="fareast"/>
+            <wx:font wx:val="楷体_GB2312"/>
+            <w:b/>
+            <w:sz w:val="32"/>
+          </w:rPr>
+          <w:t>三、研究进度安排、参考文献及审查意见</w:t>
+        </w:r>
+      </w:p>
+      <w:tbl>
+        <w:tblPr>
+          <w:tblW w:w="0" w:type="auto"/>
+          <w:tblInd w:w="108" w:type="dxa"/>
+          <w:tblBorders>
+            <w:top w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+            <w:left w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+            <w:bottom w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+            <w:right w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+            <w:insideH w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+            <w:insideV w:val="single" w:sz="4" wx:bdrwidth="10" w:space="0" w:color="auto"/>
+          </w:tblBorders>
+          <w:tblLayout w:type="Fixed"/>
+        </w:tblPr>
+        <w:tblGrid>
+          <w:gridCol w:w="4446"/>
+          <w:gridCol w:w="4554"/>
+        </w:tblGrid>
+        <w:tr wsp:rsidR="005E6917">
+          <w:trPr>
+            <w:trHeight w:val="4033"/>
+          </w:trPr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="9000" w:type="dxa"/>
+              <w:gridSpan w:val="2"/>
+            </w:tcPr>
+            <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="003612ED">
+              <w:pPr>
+                <w:listPr>
+                  <w:ilvl w:val="0"/>
+                  <w:ilfo w:val="2"/>
+                  <wx:t wx:val="1．" wx:wTabBefore="0" wx:wTabAfter="0"/>
+                  <wx:font wx:val="Times New Roman"/>
+                </w:listPr>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="32"/>
+                </w:rPr>
+              </w:pPr>
+              <w:r>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:hint="fareast"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="32"/>
+                </w:rPr>
+                <w:t>研究进度安排</w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[2022年3月下旬，修改并形成毕业设计第一稿，其中包括小程序的基本功能界面及加密实现；]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[2022年四月中旬，修改并完善毕业设计第二稿，其中包括小程序分诊的实现；]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[2022年4月下旬，修改并完善毕业设计第三稿，基本实现基于国密的医疗分诊系统。]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[]]></w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr wsp:rsidR="005E6917">
+          <w:trPr>
+            <w:trHeight w:val="5584"/>
+          </w:trPr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="9000" w:type="dxa"/>
+              <w:gridSpan w:val="2"/>
+            </w:tcPr>
+            <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="003612ED">
+              <w:pPr>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="32"/>
+                </w:rPr>
+              </w:pPr>
+              <w:r>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:hint="fareast"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="32"/>
+                </w:rPr>
+                <w:t>2．应收集资料及主要参考文献（不少于8条）</w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[[1]旷珊珊. 面向科室分诊及医生推荐的智能导诊系统研究与设计[D].河北工程大学，2021.]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[[2]陈家驹，翁昌晶，刘谦，羊海锋.基于全流程的急诊智慧医疗服务体系建设探讨[J].中国医疗设备，2021，36(08):134-137+156.]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[[3]沈珩. 基于Android的医生随诊系统的设计与实现[D].北京邮电大学，2018.]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[[4]王嘉宁，苏翀，任瞳.医院智能导诊系统设计与实现[J].医学信息学杂志，2018，39(08):29-32.]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[[5]毛宇. 移动网络支付中的国密算法研究[D].哈尔滨理工大学，2018.]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[[6]许小波.基于国密算法的设备安全认证系统设计[J].电子产品世界，2021，28(03):36-38+56.]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[[7]杨春雷.国密算法在国库信息系统中的应用研究[J].金融科技时代，2021，29(07):53-57.]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[[8]胡景秀，杨阳，熊璐，吴金坛.国密算法分析与软件性能研究[J].信息网络安全，2021，21(10):8-16.]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[]]></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="00AB5139" wsp:rsidRPr="00331856" wsp:rsidRDefault="00AB5139" wsp:rsidP="00AB5139">
+              <w:pPr>
+                <w:spacing w:line="360" w:line-rule="auto"/>
+                <w:ind w:first-line-chars="200"/>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00331856">
+                <w:rPr>
+                  <wx:font wx:val="宋体"/>
+                </w:rPr>
+                <w:t><![CDATA[]]></w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr wsp:rsidR="005E6917">
+          <w:trPr>
+            <w:trHeight w:val="4497"/>
+          </w:trPr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="9000" w:type="dxa"/>
+              <w:gridSpan w:val="2"/>
+            </w:tcPr>
+            <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="003612ED">
+              <w:pPr>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="32"/>
+                </w:rPr>
+              </w:pPr>
+              <w:r>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:hint="fareast"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="32"/>
+                </w:rPr>
+                <w:t>指导教师意见</w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="005E6917" wsp:rsidRPr="00F938C1" wsp:rsidRDefault="00F938C1" wsp:rsidP="00F938C1">
+              <w:pPr>
+                <w:ind w:left-chars="300"/>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:hint="fareast"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="28"/>
+                  <w:sz-cs w:val="28"/>
+                </w:rPr>
+              </w:pPr>
+              <w:r wsp:rsidRPr="00F938C1">
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:hint="fareast"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="28"/>
+                  <w:sz-cs w:val="28"/>
+                </w:rPr>
+                <w:t>选题结合智慧医疗的分诊系统进行研究，利用国密算法和网络安全知识，设计保护患者隐私信息的分珍方案和系统实现，选题具有理论和实践意义。开题报告研究内容清楚，研究计划合理，符合本科毕业论文开题要求，同意开题。</w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="003612ED" wsp:rsidP="00AD53F2">
+              <w:pPr>
+                <w:ind w:first-line-chars="1400"/>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="32"/>
+                </w:rPr>
+              </w:pPr>
+              <w:r>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:hint="fareast"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="32"/>
+                </w:rPr>
+                <w:t>指导教师签名：</w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="003612ED">
+              <w:pPr>
+                <w:ind w:first-line="4500"/>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="32"/>
+                </w:rPr>
+              </w:pPr>
+              <w:r>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:hint="fareast"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="32"/>
+                </w:rPr>
+                <w:t>201 年 月 日</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+        <w:tr wsp:rsidR="005E6917">
+          <w:trPr>
+            <w:trHeight w:val="2619"/>
+          </w:trPr>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4446" w:type="dxa"/>
+            </w:tcPr>
+            <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="003612ED">
+              <w:pPr>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="28"/>
+                  <w:sz-cs w:val="28"/>
+                </w:rPr>
+              </w:pPr>
+              <w:r>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:hint="fareast"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="28"/>
+                  <w:sz-cs w:val="28"/>
+                </w:rPr>
+                <w:t>系意见：</w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="005E6917">
+              <w:pPr>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="28"/>
+                  <w:sz-cs w:val="28"/>
+                </w:rPr>
+              </w:pPr>
+              <w:r>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:hint="fareast"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="28"/>
+                  <w:sz-cs w:val="28"/>
+                </w:rPr>
+                <w:t>同意</w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="005E6917" wsp:rsidP="00AD53F2">
+              <w:pPr>
+                <w:ind w:first-line-chars="500"/>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="28"/>
+                  <w:sz-cs w:val="28"/>
+                </w:rPr>
+              </w:pPr>
+            </w:p>
+            <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="003612ED" wsp:rsidP="00AD53F2">
+              <w:pPr>
+                <w:ind w:first-line-chars="500"/>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="28"/>
+                  <w:sz-cs w:val="28"/>
+                </w:rPr>
+              </w:pPr>
+              <w:r>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:hint="fareast"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="28"/>
+                  <w:sz-cs w:val="28"/>
+                </w:rPr>
+                <w:t>系主任签名：</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+          <w:tc>
+            <w:tcPr>
+              <w:tcW w:w="4554" w:type="dxa"/>
+            </w:tcPr>
+            <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="003612ED">
+              <w:pPr>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="28"/>
+                  <w:sz-cs w:val="28"/>
+                </w:rPr>
+              </w:pPr>
+              <w:r>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:hint="fareast"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="28"/>
+                  <w:sz-cs w:val="28"/>
+                </w:rPr>
+                <w:t>学院意见：</w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="005E6917">
+              <w:pPr>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="28"/>
+                  <w:sz-cs w:val="28"/>
+                </w:rPr>
+              </w:pPr>
+              <w:r>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:hint="fareast"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="28"/>
+                  <w:sz-cs w:val="28"/>
+                </w:rPr>
+                <w:t></w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="003612ED">
+              <w:pPr>
+                <w:pStyle w:val="a4"/>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="Times New Roman"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="28"/>
+                  <w:sz-cs w:val="28"/>
+                </w:rPr>
+              </w:pPr>
+              <w:r>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:h-ansi="Times New Roman" w:hint="fareast"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="28"/>
+                  <w:sz-cs w:val="28"/>
+                </w:rPr>
+                <w:t>主管院长（签名）：</w:t>
+              </w:r>
+            </w:p>
+            <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="003612ED" wsp:rsidP="00AD53F2">
+              <w:pPr>
+                <w:ind w:first-line-chars="600"/>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="28"/>
+                  <w:sz-cs w:val="28"/>
+                </w:rPr>
+              </w:pPr>
+              <w:r>
+                <w:rPr>
+                  <w:rFonts w:ascii="楷体_GB2312" w:fareast="楷体_GB2312" w:hint="fareast"/>
+                  <wx:font wx:val="楷体_GB2312"/>
+                  <w:sz w:val="28"/>
+                  <w:sz-cs w:val="28"/>
+                </w:rPr>
+                <w:t>（学院章）</w:t>
+              </w:r>
+            </w:p>
+          </w:tc>
+        </w:tr>
+      </w:tbl>
+      <w:p wsp:rsidR="003612ED" wsp:rsidRDefault="003612ED"/>
+      <w:sectPr wsp:rsidR="003612ED" wsp:rsidSect="005E6917">
+        <w:hdr w:type="odd">
+          <w:p wsp:rsidR="005E6917" wsp:rsidRDefault="005E6917">
+            <w:pPr>
+              <w:pStyle w:val="a6"/>
+              <w:pBdr>
+                <w:bottom w:val="none" w:sz="0" wx:bdrwidth="0" w:space="0" w:color="auto"/>
+              </w:pBdr>
+            </w:pPr>
+          </w:p>
+        </w:hdr>
+        <w:pgSz w:w="11906" w:h="16838"/>
+        <w:pgMar w:top="1304" w:right="1418" w:bottom="1304" w:left="1474" w:header="851" w:footer="992" w:gutter="0"/>
+        <w:cols w:space="720"/>
+        <w:docGrid w:type="lines" w:line-pitch="312"/>
+      </w:sectPr>
+    </wx:sect>
+  </w:body>
+</w:wordDocument>

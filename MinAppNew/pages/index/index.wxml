@@ -1,0 +1,37 @@
+
+<view class="container">
+  <view class="userinfo">
+    <!-- 授权前 -->
+    <block wx:if="{{!hasUserInfo}}">
+      <button bindtap="getUserProfile"> 获取头像昵称 </button>
+    </block>
+    <!-- 授权后 -->
+    <block wx:else> 
+     <view class="users">
+      <view class="item1">
+        <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      </view>
+      <view class="item1">
+        <view>昵称：</view>
+        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      </view>
+     </view>
+
+     <!-- 判断个人信息是否完善 -->
+     <view bindtap="getUserMsg">点击查看个人信息</view>
+
+     <!-- 个人信息完善 -->
+      <block wx:if="{{!hasUserMsg}}">
+        <view></view>
+      </block>
+      <!-- 个人信息不完善 -->
+      <block wx:else>
+        <view>
+          <navigator url="../usermsg/usermsg?nickname={{nickName}}">请先完善个人信息</navigator>
+        </view>  
+      </block>
+
+    </block>
+  </view>
+</view>
+

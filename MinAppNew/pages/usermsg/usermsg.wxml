@@ -1,0 +1,103 @@
+<view class="container2">
+    <!--获取个人信息前-->
+    <block wx:if="{{!hasPerson}}">
+      
+      <view class="page-body">
+      <form catchsubmit="formSubmit" catchreset="formReset">
+  
+
+        <view class="page-section">
+            <view class="page-section-title">昵称：{{nickName}}</view>
+            <view class="weui-cells weui-cells_after-title">
+              <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__bd" style="margin: 30rpx 0" >
+                  <input class="weui-input" name="nickName" disabled value="{{nickName}}" />
+                </view>
+              </view>
+            </view>
+            
+          </view>
+
+
+        <view class="page-section">
+          <view class="page-section-title">姓名：</view>
+          <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_input">
+              <view class="weui-cell__bd" style="margin: 30rpx 0" >
+                <input class="weui-input" name="username" placeholder="请输入姓名" />
+              </view>
+            </view>
+          </view>
+          
+        </view>
+        
+        <view class="page-section page-section-gap">
+          <view class="page-section-title">性别：</view>
+        <checkbox-group name="gender">
+          <label class="checkbox padding-sm fl"
+              wx:for="{{gender}}"
+              wx:key="r_ability_checkbox"
+              wx:for-item="a"
+              id="{{index}}"
+              bindtap="{{!a.canCheck?'checkChange':''}}"
+          >
+          <checkbox class="round theme-r-color s7"
+              checked="{{a.checked}}"
+              disabled="{{a.canCheck}}"
+              value="{{realgender}}" />{{a.value}}
+          </label>
+      </checkbox-group>
+    </view>
+
+  
+        <view class="page-section">
+          <view class="page-section-title">年龄：</view>
+          <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_input">
+              <view class="weui-cell__bd" style="margin: 30rpx 0" >
+                <input class="weui-input" name="age" placeholder="请输入年龄" />
+              </view>
+            </view>
+          </view>
+          
+        </view>
+  
+        <view class="page-section">
+          <view class="page-section-title">电话号码：</view>
+          <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_input">
+              <view class="weui-cell__bd" style="margin: 30rpx 0" >
+                <input class="weui-input" name="phone" placeholder="请输入电话号码" />
+              </view>
+            </view>
+          </view>
+          
+        </view>
+  
+        <view class="btn-area">
+          <button style="margin: 30rpx 0" type="primary" formType="submit">Submit</button>
+          <button style="margin: 30rpx 0" formType="reset">Reset</button>
+        </view>
+      </form>
+    </view>
+  
+  
+    </block>
+    <!--获取个人信息后-->
+    <block wx:else> 
+      <view class="message">
+       <view class="item1">
+         <view>
+           姓名：
+         </view> 
+         <view class="username">{{}}</view>  
+         <view>性别：</view>   
+         <view class="gender"></view>
+         <view>
+           年龄
+         </view>
+         <view>{{}}</view>
+       </view>
+      </view>
+     </block>
+  </view>
