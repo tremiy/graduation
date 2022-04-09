@@ -28,3 +28,11 @@
   .container2{
     border: 1rpx solid red;
   }
+
+  .isRuleShow {
+    opacity: 1;
+  }
+  
+  .isRuleHide {
+    opacity: 0;
+  }

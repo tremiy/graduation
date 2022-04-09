@@ -17,18 +17,20 @@
       </view>
      </view>
 
-     <!-- 判断个人信息是否完善 -->
-     <view bindtap="getUserMsg">点击查看个人信息</view>
-
      <!-- 个人信息完善 -->
       <block wx:if="{{!hasUserMsg}}">
-        <view></view>
+        <view class="delete {{!hasUserMsg?'isRuleShow':'isRuleHide'}}">
+        <navigator bindtap="getUserMsg" url="../usermsg/usermsg?nickname={{nickName}}">请先完善个人信息</navigator>
+      </view>
       </block>
       <!-- 个人信息不完善 -->
       <block wx:else>
-        <view>
-          <navigator url="../usermsg/usermsg?nickname={{nickName}}">请先完善个人信息</navigator>
-        </view>  
+        <view class="delete {{hasUserMsg?'isRuleShow':'isRuleHide'}}">
+        <view>姓名：{{username}}</view>
+        <view>年龄：{{age}}</view>
+        <view wx:if="{{gender}}==1">性别：女</view>
+        <view wx:else>性别：男</view>
+        </view>
       </block>
 
     </block>

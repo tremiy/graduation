@@ -1,5 +1,6 @@
 Page({
   data: {
+    
     // 用户信息
     userInfo: {},
     // 判断显示授权前或授权后的样式
@@ -7,7 +8,7 @@ Page({
     hasUserMsg: false,
     pic: "../../icon/病例单 (1).png",
     nickname: "请先登录",
-    gender:1,
+    gender:2,
     avatarUrl:"../../icon/病例单 (1).png" ,
     username: '',
     age: '',
@@ -71,8 +72,7 @@ Page({
                 code: code,
                 userInfo: detail.rawData,
                 name:detail.userInfo.nickName,
-                url:detail.userInfo.avatarUrl,
-                gender:detail.userInfo.gender
+                url:detail.userInfo.avatarUrl
               },
               success: (res) => {
                 console.log("res:", res.data)
@@ -113,7 +113,6 @@ Page({
   },
 
 getUserMsg(e){
-  console.log('hello')
   var that = this
   wx.request({
     url: 'http://127.0.0.1/API/wxuser/userback.php', //自己的服务接口地址
@@ -125,23 +124,23 @@ getUserMsg(e){
     //   name: userinfo
     // },
     success: (res) => {
-      console.log("res:", res.data)
-      console.log("res:", res.data[1])
+      console.log("userback.php返回的数据:", res)
       if(res.data == null){
-        console.log('false')
+        console.log('个人信息不完整')
         that.setData({
           hasUserMsg: false
         })
       }
       else{
-        console.log('true')
+        console.log('个人信息完整')
         that.setData({
           gender: res.data.gender,
           age: res.data.age,
           username: res.data.username,
-          phone: res.data.phone
+          phone: res.data.phone,
+          hasUserMsg: true
         })
-        console.log(this.data.gender)
+
       }
     }
   })

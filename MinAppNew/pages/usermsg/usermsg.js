@@ -7,8 +7,8 @@ Page({
   data: {hasPerson: false,
     chosen: '',
     gender: [
-      { name:'1', value:'男'},
-      { name:'2', value:'女'},
+      { name:'0', value:'男'},
+      { name:'1', value:'女'},
   ],
   hasPerson:false,
   checkNum: 0,
@@ -31,7 +31,6 @@ Page({
     //在这里就开始报错了
     // console.log(nickName)
   },
-  
 
   formSubmit(e) {
     console.log("form发生了submit事件，携带数据为：", e.detail.value)
