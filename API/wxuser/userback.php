@@ -1,5 +1,5 @@
 <?php
-header('Content-Type: text/html; charset=gb2312');
+header("content-type:text/html;charset=utf-8");
 $nickName = $_POST['name'];
 $servername = "127.0.0.1"; 
 $username = "root"; 
@@ -13,37 +13,69 @@ mysql_select_db($dbname);
 // 检测连接 
 
 if ($conn->connect_error) { 
-    echo "false";
+    // echo "false";
     die("connect server fail: " . $conn->connect_error); 
 }
 else{
-    echo "connect success";
+    // echo "connect success";
 }
+
+// if($result[username]==null && false){
+//     echo "name null";
+// }
+// elseif(1==1 && false){
+//     echo "test null";
+// }
+// else{
+//     echo "输出了这个";
+// }
 
 // 查询
 $sql = "SELECT username,phone,gender,age FROM user";
 $res = mysql_query($sql,$conn);
 $result = mysql_fetch_array($res,MYSQL_ASSOC);
 
-if(in_array(null,$result)){
-    echo 'null';
-}
-else{
+// public function asciitostr($sacii){
+
+//     $asc_arr= str_split(strtolower($sacii),2);
+
+//     $str='';
+
+//     for($i=0;$i
+//         $str.=chr(hexdec($asc_arr[$i][1].$asc_arr[$i][0]));
+
+//     }
+
+//     return mb_convert_encoding($str,'UTF-8','GB2312');
+
+// }
+
+if($result[username]!=null && $result[phone]!=null && $result[gender]!=null && $result[age]!=null){
     $cmdname = 'C:/Users/nsus/AppData/Local/Programs/Python/Python38/python.exe SM2.py decrypt '.$result[username];
     exec($cmdname,$outputname,$res);
-    echo 'name:'.$outputname[2];
-
+    // echo 'name:'.$outputname[2];
+    $name = $outputname[2];
+    
     $cmdphone = 'C:/Users/nsus/AppData/Local/Programs/Python/Python38/python.exe SM2.py decrypt '.$result[phone];
     exec($cmdphone,$outputphone,$res);
-    echo 'phone:'.$outputphone[2];
+    // echo 'phone:'.$outputphone[2];
+    $phone = $outputphone[2];
 
     $cmdgender = 'C:/Users/nsus/AppData/Local/Programs/Python/Python38/python.exe SM2.py decrypt '.$result[gender];
     exec($cmdgender,$outputgender,$res);
-    echo 'gender:'.$outputgender[2];
+    // echo 'gender:'.$outputgender[2];
+    $gender = $outputgender[2];
 
     $cmdage = 'C:/Users/nsus/AppData/Local/Programs/Python/Python38/python.exe SM2.py decrypt '.$result[age];
     exec($cmdage,$outputage,$res);
-    echo 'age'.$outputage[2];
+    // echo 'age'.$outputage[2];
+    $age = $outputage[2];
+
+    $back = array("username"=>"$name","phone"=>"$phone","gender"=>"$gender","age"=>"$age");
+    echo json_encode($back);
+}
+else{
+    echo 'null';
 }
 
 

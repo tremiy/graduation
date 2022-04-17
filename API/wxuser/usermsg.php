@@ -1,5 +1,5 @@
 <?php
-header('Content-Type: text/html; charset=gb2312');
+header('Content-Type: text/html; charset=utf-8');
 $nickName = $_POST['nickName'];
 $name = $_POST['username'];
 $age = $_POST['age'];
@@ -10,9 +10,26 @@ $username = "root";
 $password = "root";//服务器中连接数据库的密码 
 $dbname = "doctor";//使用的数据库名 
 
-echo $gender;
+echo $nickName;
+// echo $name;
+// public function strtoascii($str){
 
+//     $str=mb_convert_encoding($str,'GB2312');
 
+//     $change_after='';
+
+//     for($i=0;$i<strlen($str);$i++){
+//         $temp_str=dechex(ord($str[$i]));
+
+//         $change_after.=$temp_str[1].$temp_str[0];
+
+//     }
+
+//     return strtoupper($change_after);
+
+// }
+
+// $name = strtoascii($name);
 
 $cmdPhone = 'C:/Users/nsus/AppData/Local/Programs/Python/Python38/python.exe SM2.py encrypt '.$phone;
 // echo $cmdPhone;
@@ -61,6 +78,7 @@ if ($conn->connect_error) {
 else{
     echo "connect success";
 }
+
 
 
 $sql = "UPDATE user SET username='$name',phone='$phone',gender='$gender',age='$age' WHERE nickname = '$nickName'";

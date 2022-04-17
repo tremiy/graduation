@@ -1,0 +1,35 @@
+<?php
+header('Content-Type: text/html; charset=utf-8');
+$servername = "127.0.0.1"; 
+$username = "root"; 
+$password = "root";//服务器中连接数据库的密码 
+$dbname = "doctor";//使用的数据库名 
+
+
+// 创建连接 
+$conn = mysql_connect($servername, $username, $password);
+mysql_select_db($dbname);
+// 检测连接 
+
+if ($conn->connect_error) { 
+    echo "false";
+    die("connect server fail: " . $conn->connect_error); 
+}
+else{
+    echo "connect success";
+}
+
+
+$sql = "SELECT * FROM user";
+$result = "mysql_query($sql,$conn)";
+echo $result;
+
+if(mysql_query($sql,$conn)){
+    echo "insert success";
+}
+else{
+    echo "insert false";
+}
+    mysql_close();
+
+?>

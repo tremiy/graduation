@@ -1,7 +1,6 @@
 <?php 
 $name = $_POST['name']; 
 $url = $_POST['url']; 
-$gender = $_POST['gender'];
 $servername = "127.0.0.1"; 
 $username = "root"; $password = "root";//服务器中连接数据库的密码 
 $dbname = "doctor";//使用的数据库名 
@@ -21,8 +20,8 @@ else{
 // echo $name;
 
 
-$sql = "INSERT INTO  user (nickname,url,gender) VALUES ('$name', '$url','$gender')";
-$sql2 = "UPDATE user SET url = '$url',gender='$gender' WHERE nickname = '$name'";
+$sql = "INSERT INTO  user (nickname,url) VALUES ('$name', '$url')";
+$sql2 = "UPDATE user SET url = '$url' WHERE nickname = '$name'";
 echo $sql;
 echo $sql2;
 
