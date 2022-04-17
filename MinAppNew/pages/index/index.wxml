@@ -16,12 +16,15 @@
         <text class="userinfo-nickname">{{userInfo.nickName}}</text>
       </view>
      </view>
-
+     <view class="test">
+     <navigator bindtap="getUserMsg" url="../usermsg/usermsg?nickname={{nickName}}">个人信息</navigator>
+     <navigator bindtap="getUserMsg" url="../usermsg/usermsg?nickname={{nickName}}">个人信息</navigator>
+    </view>
      <!-- 个人信息完善 -->
       <block wx:if="{{!hasUserMsg}}">
-        <view class="delete {{!hasUserMsg?'isRuleShow':'isRuleHide'}}">
-        <navigator bindtap="getUserMsg" url="../usermsg/usermsg?nickname={{nickName}}">请先完善个人信息</navigator>
-      </view>
+        <!-- <view class="delete {{!hasUserMsg?'isRuleShow':'isRuleHide'}}"> -->
+        
+      <!-- </view> -->
       </block>
       <!-- 个人信息不完善 -->
       <block wx:else>
@@ -32,7 +35,10 @@
         <view wx:else>性别：男</view>
         </view>
       </block>
-
+      <view>姓名：杨敏铝</view>
+        <view>年龄：23</view>
+        <view wx:if="{{gender}}==1">性别：女</view>
+        <view wx:else>性别：男</view>
     </block>
   </view>
 </view>

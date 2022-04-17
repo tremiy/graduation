@@ -8,7 +8,7 @@ Page({
     hasUserMsg: false,
     pic: "../../icon/病例单 (1).png",
     nickname: "请先登录",
-    gender:2,
+    gender:1,
     avatarUrl:"../../icon/病例单 (1).png" ,
     username: '',
     age: '',

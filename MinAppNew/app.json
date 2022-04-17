@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/choose/choose",
     "pages/index/index", 
     "pages/usermsg/usermsg",
     "pages/consultation/consultation",
@@ -11,7 +12,8 @@
     "pages/login/login",
     "pages/auth/auth",
     "pages/pay/pay",
-    "pages/record/record" 
+    "pages/record/record" ,
+    "pages/doctor/doctor"
   ],
   "window":{
     "backgroundTextStyle":"light",

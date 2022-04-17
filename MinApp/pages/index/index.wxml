@@ -1,0 +1,13 @@
+<view class='header'>
+  <view class="top">
+    <image src="{{_src?_src:'../../icon/未登录.png'}}" class="user" mode="aspectFill" />
+  </view> 
+  <view class='login-btn'>
+  <button class='btn1' size='mini' style='display: {{loginSH}};width: 150rpx;' bindtap='login'>登录</button>
+  <button class='btn1' size='mini' style='display: {{zhuxiaoSH}};width: 150rpx;' bindtap='zhuxiao'>注销</button>
+  </view>
+</view>
+
+<button bindtap='toUsermessage'>● 个人信息</button>
+
+<button bindtap='toYuyue'>● 预约记录</button>

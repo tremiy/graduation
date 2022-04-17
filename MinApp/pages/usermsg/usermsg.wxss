@@ -1,0 +1,65 @@
+page {
+    background: #F5F5F5;
+}
+
+
+view {
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.select {
+    border-radius: 10rpx;
+    padding: 20rpx;
+    background: #fff;
+    overflow: hidden;
+    margin-bottom: 15rpx;
+    
+}
+
+.tishi text {
+    font-size: 38rpx;
+    float: left;
+    width: 150rpx;
+    margin-top: 6rpx;
+    letter-spacing: 3rpx;
+}
+
+input{
+    width: 80%;
+    font-size: 32rpx;
+    color: #000;
+}
+
+checkbox-group {
+    width: 80%;
+    font-size: 28rpx;
+    color: #000;
+}
+
+.select radio-group label {
+    font-size: 28rpx;
+    color: #000;
+    position: relative;
+    top: 5rpx;
+}
+
+.select radio-group label radio {
+    transform: scale(0.5);
+}
+
+
+button {
+    background: #06AC85;
+    color: #fff;
+    font-size: 30rpx;
+    position: relative;
+    top: 150rpx;
+}

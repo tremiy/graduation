@@ -1,32 +1,42 @@
-.container{
-  border: 1rpx solid red;
-}
   .users {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
+
   .userinfo-avatar {
     height: 200rpx;
     width: 200rpx;
     border-radius: 50%;
+    
   }
+
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 1000rpx;
+  }
+  button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #519a73;
+    color: rgb(244, 244, 244);
+  }
+
   .item1{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    border: 1rpx solid red;
     padding: 20rpx;
   }
   image{
       width: 250rpx;
       height: 220rpx;
-  }
-
-  .container2{
-    border: 1rpx solid red;
   }
 
   .isRuleShow {
@@ -36,3 +46,16 @@
   .isRuleHide {
     opacity: 0;
   }
+  navigator{
+    display: flex;
+    padding-top: 10;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #519a73;
+    width: 320rpx;
+    height: 105rpx;
+    border-radius: 10rpx;
+    color:white;
+}
+

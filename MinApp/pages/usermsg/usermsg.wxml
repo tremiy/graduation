@@ -1,0 +1,57 @@
+<view class="container">
+      <form catchsubmit="formSubmit" catchreset="formReset">
+  
+
+        <view class="page-section">
+            <view class="tishi">昵称：{{nickName}}</view>
+        </view>
+
+        <view class="page-section">
+          <view class="tishi"><text>姓名：</text></view>
+          <view class="cell">
+                <input class="select" name="username" placeholder="请输入姓名" />
+          </view>
+          
+        </view>
+        
+        <view class="page-section">
+        <view class="tishi">性别：</view>
+        <checkbox-group name="gender">
+          <label class="checkbox padding-sm fl"
+              wx:for="{{gender}}"
+              wx:key="r_ability_checkbox"
+              wx:for-item="a"
+              id="{{index}}"
+              bindtap="{{!a.canCheck?'checkChange':''}}"
+          >
+          <checkbox class="round theme-r-color s7"
+              checked="{{a.checked}}"
+              disabled="{{a.canCheck}}"
+              value="{{realgender}}" />
+            {{a.value}}
+          </label>
+        </checkbox-group>
+        </view>
+
+        <view class="page-section">
+          <view class="tishi">年龄：</view>
+          <view class="cell">
+                <input class="select" name="age" placeholder="请输入年龄" />
+          </view>
+          
+        </view>
+  
+        <view class="page-section">
+          <view class="tishi">电话号码：</view>
+            <view class="cell">
+                <input class="select" name="phone" placeholder="请输入电话号码" />
+            </view>
+        </view>
+  
+        <view >
+          <button style="margin: 30rpx 0" formType="submit">Submit</button>
+          <button style="margin: 30rpx 0" formType="reset">Reset</button>
+        </view>
+      </form>
+  
+</view>

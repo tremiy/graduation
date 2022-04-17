@@ -1,0 +1,52 @@
+{
+  "pages":[
+    "pages/index/index", 
+    "pages/choose/choose", 
+    "pages/detail/detail",
+    "pages/msgshow/msgshow",
+    "pages/selectlogin/selectlogin",
+    "pages/gerenxinxi/gerenxinxi",
+    "pages/usermsg/usermsg",
+    "pages/consultation/consultation",
+    "pages/search/search",
+    "pages/sen-consultation/sen-consultation",
+    "pages/register/register",
+    "pages/docters_list/docters_list",
+    "pages/time/time",
+    "pages/login/login",
+    "pages/auth/auth",
+    "pages/pay/pay",
+    "pages/record/record" ,
+    "pages/doctor/doctor"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#519a73",
+    "navigationBarTitleText": "智慧分诊系统",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/consultation/consultation",
+        "text": "分诊",
+        "iconPath": "icon/听诊器(2).png",
+        "selectedIconPath": "icon/听诊器.png"
+      },
+      {
+        "pagePath": "pages/record/record",
+        "text": "就诊记录",
+        "iconPath": "icon/病例单 (1).png",
+        "selectedIconPath": "icon/病例单.png"
+      },
+      {
+      "pagePath": "pages/index/index",
+      "text": "我的",
+      "iconPath": "icon/团体 (1).png",
+      "selectedIconPath": "icon/团体.png"
+      }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
