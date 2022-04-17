@@ -70,12 +70,6 @@ Page({
     })  
    
   },
-  toYuyue: function (e) {
-    wx.navigateTo({
-      url: '../../yuyuelist/yuyuelist'
-    }) 
-
-  },
   
   toUsermessage: function (e) {
     wx.navigateTo({

@@ -15,6 +15,7 @@ Page({
     sex: 0,
     agearray:[],
     age:'',
+    isLogin: false
   },
 
   bindPickerChange: function (e) {
@@ -29,11 +30,13 @@ Page({
       age: e.detail.value
     })
   },
+
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
     var that=this
+    
     var agearr=[]
     for(var i=0;i<120;i++){
       agearr.push(i)
@@ -52,19 +55,34 @@ Page({
    onShow: function () {
     var that = this
     wx.getStorage({
-      key: 'age',
+      key: 'userInfo',
       success: function (res) {
         console.log(res.data)
         that.setData({
-          age: res.data
+          isLogin:true
         })
       }, fail(e) {
         console.log("未登录")
-        that.setData({
-          loginSH: "block",
-          zhuxiaoSH: "none"
-        })
+        wx.showModal({
+          content: '未登录',
+          confirmText: '确定',
+          success: function(res) {
+            // 用户没有授权成功，不需要改变 isHide 的值
+            if (res.confirm) {
+              wx.switchTab({
+                url: '/pages/index/index'
+              })
+            }
+          }
+        });
       }
+    })
+  },
+
+
+  noLogin: function(){
+    wx.navigateTo({
+      url: 'pages/index/index'
     })
   },
 
@@ -142,6 +160,15 @@ Page({
     let id = e.currentTarget.dataset.id;
     wx.navigateTo({
       url: '../detail/detail?keshi=' + keshi
+    })
+  },
+
+  guahaoTap: function (e) {
+    console.log(e);
+    let keshi = e.currentTarget.dataset.key;
+    let id = e.currentTarget.dataset.id;
+    wx.navigateTo({
+      url: '../register/register?keshi=' + keshi
     })
   },
 

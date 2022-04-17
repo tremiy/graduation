@@ -1,2 +1,4 @@
-<!--pages/record/record.wxml-->
-<text>pages/record/record.wxml</text>
+<view class="container" wx:if="{{isLogin}}">
+  <view bindtap="noLogin"></view>
+  </view>
+

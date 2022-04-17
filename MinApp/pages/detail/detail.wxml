@@ -1,1 +1,13 @@
-{{keshi}}
+<view>
+    <view>症状：</view>
+    <view>
+        {{zhengzhuang}}
+    </view>
+</view>
+
+<view>
+    <view>预防措施：</view>
+    <view>{{yufang}}</view>
+</view>
+
+<button bindtap="toRegister"  data-key="{{keshi}}">去挂号</button>

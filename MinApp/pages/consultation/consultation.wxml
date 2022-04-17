@@ -1,3 +1,6 @@
+<view wx:if="{{isLogin}}">
+  <view bindtap="noLogin"></view>
+</view>
 <view class="weui-search-bar">
   <view class="weui-search-bar__form">
     <view class="weui-search-bar__box">
@@ -8,7 +11,7 @@
       </view>
     </view> 
   </view>
-  <view class="weui-search-bar__cancel-btn" bindtap="">
+  <view class="weui-search-bar__cancel-btn" >
     <text data-key='back' bindtap="searchZZ">确定</text>
   </view>
 </view>
@@ -17,23 +20,6 @@
 
   <view class="wxSearchInner">
 
-    <!-- 选择性别年龄 -->
-    <view class="wxSearchMindKey">
-      <view class="wxSearchMindKeyList">
-        <view class="picker-container">
-          <picker bindchange="bindPickerChange" value="{{sex}}" range="{{sexarray}}">
-            <view class="picker">
-              性别：{{sexarray[sex]}}
-            </view>
-          </picker>
-          <picker bindchange="bindAgeChange" value="{{age}}" range="{{agearray}}">
-            <view class="picker">
-              年龄：{{agearray[age]}}
-            </view>
-          </picker>
-        </view>
-      </view>
-    </view>
 
     <!-- 搜索提示部分  -->
     <view class="wxSearchMindKey">
@@ -73,7 +59,9 @@
       <text wx:if="{{jianyiKS}}" class="wxSearchTitle">建议科室</text>
       <view class="wxSearchKeyList">
         <block wx:for="{{jianyiKS}}">
-          <view class="wxSearchKeyItem" bindtap="detailTap" data-key="{{item.departmentName}}">{{item.departmentName}}</view>
+          <view class="wxSearchKeyItem">{{item.departmentName}}</view>
+          <button  bindtap="detailTap" data-key="{{item.departmentName}}">详情</button>
+          <button  bindtap="guahaoTap" data-key="{{item.departmentName}}">挂号</button>
         </block>
       </view>
     </view>

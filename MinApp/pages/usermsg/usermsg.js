@@ -24,16 +24,17 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
+    var that = this;
     //这里直接打印是可以得出nickname的
     // console.log(options)
-    this.setData({
+    that.setData({
       nickName: options.nickname
     })
     //在这里就开始报错了
     // console.log(nickName)
   },
   onShow: function () {
-    var that = this
+    var that = this;
     wx.getStorage({
       key: 'userInfo',
       success: function (res) {

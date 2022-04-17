@@ -1,66 +1,55 @@
-// pages/record/record.js
+// pages/doctor/doctor.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    isLogin: false
   },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad(options) {
-
+  detailFun:function(){
+    if(this.data.type == 0){
+      wx.navigateTo({
+        url: '/pages/GHDetail/GHDetail',
+      })
+    }
   },
 
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady() {
-
-  },
-
-  /**
+   /**
    * 生命周期函数--监听页面显示
    */
-  onShow() {
+    onShow: function () {
+      var that = this
+      wx.getStorage({
+        key: 'userInfo',
+        success: function (res) {
+          console.log(res.data)
+          that.setData({
+            isLogin:true
+          })
+        }, fail(e) {
+          console.log("未登录")
+          wx.showModal({
+            content: '未登录',
+            confirmText: '确定',
+            success: function(res) {
+              // 用户没有授权成功，不需要改变 isHide 的值
+              if (res.confirm) {
+                wx.switchTab({
+                  url: '/pages/index/index'
+                })
+              }
+            }
+          });
+        }
+      })
+    },
 
-  },
+    noLogin: function(){
+      wx.navigateTo({
+        url: 'pages/noLogin/noLogin'
+      })
+    }
 
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload() {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh() {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom() {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage() {
-
-  }
 })

@@ -9,5 +9,3 @@
 </view>
 
 <button bindtap='toUsermessage'>● 个人信息</button>
-
-<button bindtap='toYuyue'>● 预约记录</button>
