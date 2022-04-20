@@ -10,5 +10,5 @@
   align-items: center;
   background-color: #fff;
   border-radius: 15rpx;
-  color: #395260;
+  color: #666;
 }
