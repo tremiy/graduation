@@ -1,55 +1,48 @@
-// pages/doctor/doctor.js
+// pages/pay/pay.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    isLogin: false
+      doctorsList:[],
+      nickname:''
   },
 
-  detailFun:function(){
-    if(this.data.type == 0){
-      wx.navigateTo({
-        url: '/pages/GHDetail/GHDetail',
-      })
-    }
-  },
 
-   /**
-   * 生命周期函数--监听页面显示
+  /**
+   * 生命周期函数--监听页面加载
    */
-    onShow: function () {
+  onLoad(options) {
       var that = this
       wx.getStorage({
         key: 'userInfo',
         success: function (res) {
-          console.log(res.data)
-          that.setData({
-            isLogin:true
+          console.log('uermsg',res.data)
+          let nickname=res.data.nickName
+          console.log(nickname)
+          wx.request({
+            url: 'http://127.0.0.1/API/wxuser/record.php', //自己的服务接口地址
+            method: 'post',
+            header: {
+              'content-type': 'application/x-www-form-urlencoded'
+            },
+            // 需要传给后端的数据
+            data: {
+              nickname:nickname
+            },
+            success: (res) =>{
+              console.log("res:",res.data)
+              that.setData({
+                doctorsList:res.data
+              })
+            }
           })
         }, fail(e) {
           console.log("未登录")
-          wx.showModal({
-            content: '未登录',
-            confirmText: '确定',
-            success: function(res) {
-              // 用户没有授权成功，不需要改变 isHide 的值
-              if (res.confirm) {
-                wx.switchTab({
-                  url: '/pages/index/index'
-                })
-              }
-            }
-          });
         }
       })
-    },
 
-    noLogin: function(){
-      wx.navigateTo({
-        url: 'pages/noLogin/noLogin'
-      })
-    }
+  },
 
 })

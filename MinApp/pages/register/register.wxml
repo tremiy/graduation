@@ -1,0 +1,22 @@
+<view wx:if="{{doctorsList}}">
+    <view class="first_tab">
+        <view class="doctors_item"
+        wx:for="{{doctorsList}}"
+        wx:key="doctors_id"
+        >
+            <!-- 左侧 图片容器-->
+            <view class="doctors_img_wrap">
+                <image mode="widthFix" src="{{item.pic}}"></image>
+            </view>
+            <!-- 右侧 信息容器-->
+            <view class="doctors_info_wrap">
+                <view class="doctors_name">{{item.name}}</view>
+                <scroll-view scroll-y="true" class="doctors_introduction">{{item.introduction}}</scroll-view>
+                <button class="yuyue" bindtap="yuyue" data-key="{{item.id}}">挂号</button>
+            </view>
+        </view>
+    </view>
+</view>
+<view wx:else>
+    暂无医生数据
+</view>
