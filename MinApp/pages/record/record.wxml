@@ -15,7 +15,7 @@
               <view class="yuyue">创建时间：{{item.time}}</view>
           </view>
       </view>
-  </view>
+  </view> 
 </view>
 <view wx:else>
   暂无挂号记录

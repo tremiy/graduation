@@ -1,13 +1,8 @@
-#-*-coding:utf-8-*-
 from ctypes import *
 import random
 import logging
 import math
 import re
-import sys
-import codecs
-import urllib.parse
-sys.stdout = codecs.getwriter('utf-8')(sys.stdout.detach())
 
 def str_to_hex_list(text):
     strWithOutSpace = text.replace(" ", "")
@@ -218,7 +213,7 @@ def hexstr_char(hexstr):
         str=str+chr(int(hexstr[2*i:2*i+2],16))
     return str
 
-dll = CDLL('./sm9.dll')
+dll = CDLL('sm9.dll')
 
 class CryptSM9_Encryption(object):
     def __init__(self, ke_str='01EDEE3778F441F8DEA3D9FA0ACC4E07EE36C93F9A08618AF4AD85CEDE1C22', id_str='Bob'):
@@ -581,40 +576,23 @@ if __name__ == '__main__':
     sm9_enc = CryptSM9_Encryption()
     Ppub, de = sm9_enc.generate_key()
 
-    action = sys.argv[1]
+    cipher= sm9_enc.encrypt(mode='block', msg_bytes='4368696E 65736520 49424520 7374616E 64617264')
+    print(cipher)
 
-    if action == "encrypt":
-        message = urllib.parse.unquote(sys.argv[2])
-        print(message)
-        # message = '杨敏铝'
-        message = message.encode('utf-8')
-        message1 = message.hex()
+    plaintext=sm9_enc.decrypt(cipher=cipher, mode='block')
+    print(plaintext)
 
+    sm9_sig = CryptSM9_Signature()
+    Ppub, ds = sm9_sig.generate_key()
+    print('Ppub', Ppub)
+    print('ds', ds)
 
-        cipher= sm9_enc.encrypt(mode='block', msg_bytes=message1)
-        print(cipher)
-    
-    if action == "decrypt":
-        cipher = sys.argv[2]
-        plaintext=sm9_enc.decrypt(cipher=cipher, mode='block')
-        print(plaintext)
-        plaintext = plaintext.replace('0C', '')
-        print(plaintext)
+    h, S=sm9_sig.sign()
+    print('h', h)
+    print('S', S)
 
-        result = codecs.decode(plaintext.encode('utf-8'), "hex").decode('utf-8')
-        print(result)
-
-    # sm9_sig = CryptSM9_Signature()
-    # Ppub, ds = sm9_sig.generate_key()
-    # print('Ppub：', Ppub)
-    # print('ds', ds)
-
-    # h, S=sm9_sig.sign()
-    # print('h：', h)
-    # print('S：', S)
-
-    # res=sm9_sig.verify()
-    # print(res)
+    res=sm9_sig.verify()
+    print(res)
 
 
 

@@ -1,7 +1,6 @@
 {
   "pages":[
     "pages/index/index", 
-    "pages/choose/choose", 
     "pages/noLogin/noLogin",
     "pages/detail/detail",
     "pages/msgshow/msgshow",

@@ -27,7 +27,7 @@ INNER JOIN user ON line.user = user.id
 WHERE user.nickname='$nickname'";
 // echo $sql;
 
-$res = mysql_query($sql,$conn);
+$result = mysql_query($sql,$conn);
 // // echo $res;
 // $result = mysql_fetch_array($res,MYSQL_ASSOC);
 // // echo $result;
@@ -36,11 +36,23 @@ $res = mysql_query($sql,$conn);
 
 $new = array();
 // echo mysql_num_rows($res);
-if (mysql_num_rows($res) > 0) {
+if (mysql_num_rows($result) > 0) {
 
     // 输出数据
-    while($row =  mysql_fetch_array($res,MYSQL_ASSOC)) {
-        $row = array("pic"=>"$row[pic]","name"=>"$row[name]","department"=>"$row[department]","time"=>"$row[time]");
+    while($row =  mysql_fetch_array($result,MYSQL_ASSOC)) {
+        $cmdname = 'C:/Users/nsus/AppData/Local/Programs/Python/Python38/python.exe sm9.py decrypt '.$row[name];
+        // echo $cmdname;   
+        exec($cmdname,$outputname,$res);
+        // print_r($outputname);
+        // echo $outputname[2];
+
+        $cmdpic = 'C:/Users/nsus/AppData/Local/Programs/Python/Python38/python.exe sm9.py decrypt '.$row[pic];
+        // echo $cmdname;   
+        exec($cmdpic,$outputpic,$res);
+        // print_r($outputpic);
+        // echo $outputpic[2];
+
+        $row = array("pic"=>"$outputpic[2]","name"=>"$outputname[2]","department"=>"$row[department]","time"=>"$row[time]");
         $new[] = $row;
     }
     echo json_encode($new);

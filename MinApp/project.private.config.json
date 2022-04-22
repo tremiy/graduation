@@ -52,6 +52,20 @@
           "query": "keshi=%E7%A5%9E%E7%BB%8F%E5%86%85%E7%A7%91",
           "launchMode": "default",
           "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/usermsg/usermsg",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/msgshow/msgshow",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
         }
       ]
     }

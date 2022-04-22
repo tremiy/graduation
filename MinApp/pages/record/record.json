@@ -1,4 +1,5 @@
 {
   "usingComponents": {},
-  "navigationBarTitleText":"就诊记录"
+  "navigationBarTitleText":"就诊记录",
+  "enablePullDownRefresh": true
 }

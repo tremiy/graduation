@@ -1,6 +1,10 @@
+#-*-coding:utf-8-*-
 import sys
 from gmssl import sm2
 from base64 import b64encode, b64decode
+import codecs
+sys.stdout = codecs.getwriter('utf-8')(sys.stdout.detach())
+import urllib.parse
 # sm2的公私钥
 SM2_PRIVATE_KEY = '00B9AB0B828FF68872F21A837FC303668428DEA11DCD1B24429D0C99E24EED83D5'
 SM2_PUBLIC_KEY = 'B9C9A6E04E9C91F7BA880429273747D7EF5DDEB0BB2FF6317EB00BEF331A83081A6994B8993F3F5D6EADDDB81872266C87C018FB4162F5AF347B483E24620207'
@@ -23,8 +27,8 @@ def decrypt(info):
 
 if __name__ == "__main__":
     action = sys.argv[1]  # 取命令中的加解密动作
-    contact_info = sys.argv[2]  # 取命令中需要加解密的内容
-    print(action)
+    contact_info = urllib.parse.unquote(sys.argv[2])  # 取命令中需要加解密的内容
+    # print(action)
     print(contact_info)
     # action = 'decrypt'
     # contact_info = '3vbc4cmNUjIfxrDv14gQp4nNTie1ptfene8E3ZBIRO81PA9VjY0HYF/WNQXR3YuHemZq0q0NAqa60qy/PcJVlQ+sHaXP6cdpPmSMCmQg5HK+0ciy552tOSuIZBtdYesZ4CM='

@@ -1,4 +1,3 @@
-#-*-coding:utf-8-*-
 from ctypes import *
 import random
 import logging
@@ -6,8 +5,6 @@ import math
 import re
 import sys
 import codecs
-import urllib.parse
-sys.stdout = codecs.getwriter('utf-8')(sys.stdout.detach())
 
 def str_to_hex_list(text):
     strWithOutSpace = text.replace(" ", "")
@@ -581,40 +578,26 @@ if __name__ == '__main__':
     sm9_enc = CryptSM9_Encryption()
     Ppub, de = sm9_enc.generate_key()
 
-    action = sys.argv[1]
+    message = sys.argv[1]
+    action = sys.argv[2]
 
-    if action == "encrypt":
-        message = urllib.parse.unquote(sys.argv[2])
-        print(message)
-        # message = '杨敏铝'
-        message = message.encode('utf-8')
-        message1 = message.hex()
+    cipher= sm9_enc.encrypt(mode='block', message = sys.argv[1])
+    print('密文：',cipher)
 
+    plaintext=sm9_enc.decrypt(cipher=cipher, mode='block')
+    print('明文：',plaintext)
 
-        cipher= sm9_enc.encrypt(mode='block', msg_bytes=message1)
-        print(cipher)
-    
-    if action == "decrypt":
-        cipher = sys.argv[2]
-        plaintext=sm9_enc.decrypt(cipher=cipher, mode='block')
-        print(plaintext)
-        plaintext = plaintext.replace('0C', '')
-        print(plaintext)
+    sm9_sig = CryptSM9_Signature()
+    Ppub, ds = sm9_sig.generate_key()
+    print('Ppub：', Ppub)
+    print('ds', ds)
 
-        result = codecs.decode(plaintext.encode('utf-8'), "hex").decode('utf-8')
-        print(result)
+    h, S=sm9_sig.sign()
+    print('h：', h)
+    print('S：', S)
 
-    # sm9_sig = CryptSM9_Signature()
-    # Ppub, ds = sm9_sig.generate_key()
-    # print('Ppub：', Ppub)
-    # print('ds', ds)
-
-    # h, S=sm9_sig.sign()
-    # print('h：', h)
-    # print('S：', S)
-
-    # res=sm9_sig.verify()
-    # print(res)
+    res=sm9_sig.verify()
+    print(res)
 
 
 

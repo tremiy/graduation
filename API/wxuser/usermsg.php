@@ -9,8 +9,23 @@ $servername = "127.0.0.1";
 $username = "root"; 
 $password = "root";//服务器中连接数据库的密码 
 $dbname = "doctor";//使用的数据库名 
+$name = urlencode($name);
+// echo $name;
 
-echo $nickName;
+// 创建连接 
+// $conn = new mysqli($servername, $username, $password, $dbname);
+$conn = mysql_connect($servername, $username, $password);
+mysql_select_db($dbname);
+// 检测连接 
+
+if ($conn->connect_error) { 
+    echo "false";
+    die("connect server fail: " . $conn->connect_error); 
+}
+else{
+    echo "connect success";
+}
+// echo $nickName;
 // echo $name;
 // public function strtoascii($str){
 
@@ -30,25 +45,32 @@ echo $nickName;
 // }
 
 // $name = strtoascii($name);
+// echo $name;
+// echo $phone;
+// echo $gender;
+// echo $age;
+// echo $nickName;
 
 $cmdPhone = 'C:/Users/nsus/AppData/Local/Programs/Python/Python38/python.exe SM2.py encrypt '.$phone;
 // echo $cmdPhone;
 exec($cmdPhone,$outputPhone,$res);
-$phone = $outputPhone[2];
+$phone = $outputPhone[1];
+
+// echo $phone;
 // echo $phone;
 
 $cmdName = 'C:/Users/nsus/AppData/Local/Programs/Python/Python38/python.exe SM2.py encrypt '.$name;
 exec($cmdName,$outputName,$res);
-$name = $outputName[2];
+$name = $outputName[1];
 
 $cmdAge = 'C:/Users/nsus/AppData/Local/Programs/Python/Python38/python.exe SM2.py  encrypt '.$age;
 exec($cmdAge,$outputAge,$res);
-$age = $outputAge[2];
+$age = $outputAge[1];
 // echo $age;
 
 $cmdGender = 'C:/Users/nsus/AppData/Local/Programs/Python/Python38/python.exe SM2.py encrypt '.$gender[0];
 exec($cmdGender,$outputGender,$res);
-$gender = $outputGender[2];
+$gender = $outputGender[1];
 // echo $gender;
 
 // 解密：
@@ -63,21 +85,6 @@ $gender = $outputGender[2];
 // exec($cmdName2,$outputName2,$res);
 // echo 'dename:';
 // echo $outputName2[2];
-
-
-// 创建连接 
-// $conn = new mysqli($servername, $username, $password, $dbname);
-$conn = mysql_connect($servername, $username, $password);
-mysql_select_db($dbname);
-// 检测连接 
-
-if ($conn->connect_error) { 
-    echo "false";
-    die("connect server fail: " . $conn->connect_error); 
-}
-else{
-    echo "connect success";
-}
 
 
 
