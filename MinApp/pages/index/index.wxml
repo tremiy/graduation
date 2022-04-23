@@ -6,6 +6,7 @@
   <button class='btn1' size='mini' style='display: {{loginSH}};width: 150rpx;' bindtap='login'>登录</button>
   <button class='btn1' size='mini' style='display: {{zhuxiaoSH}};width: 150rpx;' bindtap='zhuxiao'>注销</button>
   </view>
+  <button bindtap='toUsermessage'>个人信息</button>
 </view>
 
-<button bindtap='toUsermessage'>● 个人信息</button>
+

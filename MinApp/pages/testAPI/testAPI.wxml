@@ -1,6 +1,0 @@
-<view>手机号：</view>
-<input value="{{phone}}" bindtap="bindPhone"></input>
-<view>验证码</view>
-<input value="{{code}}" bindtap="bindCode"></input>
-
-<button bindtap="login">登录</button>

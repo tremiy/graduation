@@ -1,7 +1,0 @@
-<view>请选择你的身份:</view>
-<view class="out">
-<navigator class='text' url="/pages/doctor/doctor">医生</navigator>
-</view>
-<view  class="out">
-<navigator class='text' url="/pages/index/index" open-type="switchTab">患者</navigator>
-</view>

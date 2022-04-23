@@ -1,36 +1,22 @@
 .top {
-  position: relative;
+  position: flex;
   width: 240rpx;
-  height: 240rpx;
+  height: 440rpx;
   margin: 0 auto;
-  padding: 30rpx 0;
+  padding-top: 100rpx;
   text-align: center;
 }
 
 .top .user {
   width: 240rpx;
-  height: 240rpx;
+  height: 240rpx; 
   border-radius: 50%;
-}
-
-.top .photo {
-  position: absolute;
-  width: 50rpx;
-  height: 50rpx;
-  right: 0;
-  bottom: 30rpx;
 }
 
 .login-btn{
   margin: 3rpx 0;
   text-align: center;
-}
-
-.header, .order, .progress, .block {
-  border-bottom: 1rpx solid #f8f8fa;
-  width: 690rpx;
-  margin: 0 30rpx;
-  overflow: hidden;
+  height: 100rpx;
 }
 
 .header {
@@ -50,33 +36,12 @@
   text-align: center;
 }
 
-.block {
-  padding: 15rpx 0;
-}
-
-.block>.row {
-  height: 80rpx;
-  line-height: 80rpx;
-  font-size: 32rpx;
-}
-
-.block>.row > .dot {
-  font-size: 30rpx;
-  padding-right: 10rpx;
-}
-
-.block>.row > .jump {
-  float: right;
-  font-size: 28rpx;
-}
-
-.hide{
-  display: none;
-  width: 100rpx;
-}
 
 button{
   display: flex;
   align-items: center;
   justify-content: center;
+  color: white;
+  font-size: 32rpx;
+  background-color: var(--themeColor);
 }

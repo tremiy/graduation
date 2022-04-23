@@ -73,7 +73,7 @@ Page({
   
   toUsermessage: function (e) {
     wx.navigateTo({
-      url: '../usermsg/usermsg?nickName='
+      url: '../msgshow/msgshow?nickName='
     })
 
   }
