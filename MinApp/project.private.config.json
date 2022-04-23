@@ -66,6 +66,13 @@
           "query": "",
           "launchMode": "default",
           "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/selectlogin/selectlogin",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
         }
       ]
     }

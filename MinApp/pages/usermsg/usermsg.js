@@ -58,6 +58,11 @@ Page({
         content:"姓名不能为空"
       })
     }
+    else if(!/^[\u4E00-\u9FA5\uf900-\ufa2d·s]{2,20}$/.test(e.detail.value.username)){
+      wx.showModal({
+        content:"只能输入中文/英文的姓名，请勿输入其他符号"
+      })
+    }
     else if(e.detail.value.gender==""){
       wx.showModal({
         content:"性别不能为空"
@@ -68,11 +73,21 @@ Page({
         content:"年龄不能为空"
       })
     }
+    else if(!/^([1-9]\d?|1[01]\d|120)$/.test(e.detail.value.age)){
+      wx.showModal({
+        content:"请输入正确的年龄"
+      })
+    }
     else if(e.detail.value.phone==""){
       wx.showModal({
         content:"电话不能为空"
       })
     }
+    else if (!/^1[3456789]\d{9}$/.test(e.detail.value.phone) || e.detail.value.phone.length < 11) {
+      wx.showModal({
+        content:"您输入的电话号码有误"
+      })
+   }
     else{
       wx.setStorageSync('age', e.detail.value.age)
       wx.request({

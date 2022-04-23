@@ -5,7 +5,7 @@
     <view class='login-btn'>
       <button class='btn1'open-type="getUserInfo" lang="zh_CN" bindtap="onGetUserInfo">
         <image class='btnImg' src='/icon/微信.png'></image>
-        <view>微信授权登陆</view>
+        <view class="wenzi">微信授权登陆</view>
       </button>
 
     </view>

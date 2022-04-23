@@ -1,7 +1,7 @@
 .top {
   position: flex;
   width: 240rpx;
-  height: 440rpx;
+  height: 380rpx;
   margin: 0 auto;
   padding-top: 100rpx;
   text-align: center;
@@ -14,15 +14,15 @@
 }
 
 .login-btn{
-  margin: 3rpx 0;
   text-align: center;
   height: 100rpx;
+  font-size: 32rpx;
 }
 
 .header {
   padding-bottom: 20rpx;
 }
-
+ 
 .header > image {
   width: 140rpx;
   height: 140rpx;

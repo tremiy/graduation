@@ -37,16 +37,44 @@ Page({
           },
           success: (res) =>{
             console.log("res:",res.data)
-            that.setData({
-              name: res.data.username,
-              gender: res.data.gender,
-              age: res.data.age,
-              phone: res.data.phone
-            })
+            if(res.data==null){
+              wx.showModal({
+                content: '请先完善个人信息',
+                confirmText: '确定',
+                success: function(res) {
+                  if (res.confirm) {
+                    wx.navigateTo({
+                      url: '/pages/usermsg/usermsg'
+                    })
+                  }
+                }
+              });
+            }
+            else{
+              that.setData({
+                name: res.data.username,
+                gender: res.data.gender,
+                age: res.data.age,
+                phone: res.data.phone
+              })
+            }
+            
           }
         })
       }, fail(e) {
         console.log("未登录")
+        wx.showModal({
+          content: '未登录',
+          confirmText: '确定',
+          success: function(res) {
+            // 用户没有授权成功，不需要改变 isHide 的值
+            if (res.confirm) {
+              wx.switchTab({
+                url: '/pages/index/index'
+              })
+            }
+          }
+        });
       }
     })
     
@@ -63,6 +91,21 @@ Page({
       url: '../usermsg/usermsg'
     }) 
 
-  },
+  }, 
+
+  tiaozhuan: function(e){
+    wx.showModal({
+      content: '请完善个人信息',
+      confirmText: '确定',
+      success: function(res) {
+        // 用户没有授权成功，不需要改变 isHide 的值
+        if (res.confirm) {
+          wx.switchTab({
+            url: '../usermsg/usermsg'
+          })
+        }
+      }
+    });
+  }
 
 })

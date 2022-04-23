@@ -60,8 +60,8 @@
       <view class="wxSearchKeyList">
         <block wx:for="{{jianyiKS}}">
           <view class="wxSearchKeyItem">{{item.departmentName}}</view>
-          <button  bindtap="detailTap" data-key="{{item.departmentName}}">详情</button>
-          <button  bindtap="guahaoTap" data-key="{{item.departmentName}}">挂号</button>
+          <view class="wxSearchKeyItem" bindtap="detailTap" data-key="{{item.departmentName}}" style="background-color: var(--themeColor);color:white">详情</view>
+          <view class="wxSearchKeyItem"  bindtap="guahaoTap" data-key="{{item.departmentName}}" style="background-color: var(--themeColor);color:white">挂号</view>
         </block>
       </view>
     </view>

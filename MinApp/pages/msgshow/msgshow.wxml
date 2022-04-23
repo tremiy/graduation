@@ -1,21 +1,31 @@
 <view class="container">
     <view class = "item">
-        昵称：{{nickname}}
+        <view class = "item1">
+            昵称： 
+        </view>
+        <view class = "item2">
+            {{nickname}}
+        </view>
     </view>
     <view class = "item">
-        姓名： {{name}}
+        <view class = "item1">姓名：</view>
+        <view class = "item2">{{name}}</view>
     </view>
     <view class = "item" wx:if="{{gender==1}}">
-        性别：女
+        <view class = "item1">性别：</view>  
+        <view class = "item2">女</view>
     </view>
     <view class = "item" wx:else>
-        性别：男
+        <view class = "item1">性别：</view>  
+        <view class = "item2">男</view>
     </view>
     <view class = "item">
-        年龄：{{age}}
+        <view class = "item1">年龄：</view>  
+        <view class = "item2">{{age}}</view>
     </view>
     <view class = "item">
-        电话号码：{{phone}}
+        <view class = "item1">电话：</view>
+        <view class = "item2">{{phone}}</view>
     </view>
     <view class = "item">
         <button bindtap="toUsermsg">修改信息</button>

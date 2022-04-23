@@ -10,7 +10,7 @@ page{
   width: 100%;
   height: 100%
 }
-.login-bg{
+.login-bg{ 
   position: absolute;
   width: 100%;
   height: 100%;
@@ -32,7 +32,6 @@ page{
 .login-btn{
   margin: 100rpx 0;
   text-align: center;
-  
 }
 .login-btn button{
   /* color: #fff; */
@@ -43,10 +42,10 @@ page{
   background: #f3f6f8a9;
 }
 .login-btn .btn1{
-  width: 65%;
+  width: 90%;
   margin-right: 90rpx;
   margin-top: 70rpx;
-  background-color: rgb(245, 243, 238);
+  background-color: var(--themeColor);
   color: rgb(24, 22, 22);
   border-radius: 15rpx;
   display: flex;
@@ -90,4 +89,8 @@ page{
 .login-btn .btn2:after {
   border-radius: 15rpx;
   border: 0; 
+}
+
+.wenzi{
+  font-size: 32rpx;
 }

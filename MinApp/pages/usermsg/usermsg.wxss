@@ -14,6 +14,11 @@ view {
     justify-content: center;
 }
 
+.page-section{
+    padding: 20rpx;
+    display: flex;
+    align-items: center;
+}
 
 .select {
     border-radius: 10rpx;
@@ -22,6 +27,10 @@ view {
     overflow: hidden;
     margin-bottom: 15rpx;
     
+}
+
+.cell{
+    padding: 5rpx;
 }
 
 .tishi text {
@@ -47,8 +56,8 @@ checkbox-group {
 .select radio-group label {
     font-size: 28rpx;
     color: #000;
-    position: relative;
     top: 5rpx;
+    align-items: center;
 }
 
 .select radio-group label radio {
@@ -57,9 +66,9 @@ checkbox-group {
 
 
 button {
-    background: #06AC85;
+    background-color: var(--themeColor);
     color: #fff;
     font-size: 30rpx;
     position: relative;
-    top: 150rpx;
+    top: 50rpx;
 }

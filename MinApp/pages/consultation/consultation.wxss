@@ -70,7 +70,10 @@ background-color: #eee;
 
 /** 标签样式 */
 .wxSearchKeyItem{
-  flex: 0 0 18%;
+  flex:1;
+  width: 30%;
+  min-width: 30%; 
+  max-width: 30%;
   font-size: 13px;
   text-align: center;
   border: 1px solid #eee;
@@ -78,6 +81,7 @@ background-color: #eee;
   padding: 4px 5px 4px 5px;
   border-radius: 0px;
   background-color: rgba(200, 200, 200, 0.1);
+
 }
 
 /** 搜索记录标题栏 */
