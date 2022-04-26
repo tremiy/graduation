@@ -1,7 +1,7 @@
 <view class="container">
     <view class = "item">
         <view class = "item1">
-            昵称： 
+            昵称：  
         </view>
         <view class = "item2">
             {{nickname}}
@@ -9,7 +9,8 @@
     </view>
     <view class = "item">
         <view class = "item1">姓名：</view>
-        <view class = "item2">{{name}}</view>
+        <view class = "item2" wx:if="{{name}}!=null">{{name}}</view>
+        <view wx:else bindtap="tiaozhuan"></view>
     </view>
     <view class = "item" wx:if="{{gender==1}}">
         <view class = "item1">性别：</view>  

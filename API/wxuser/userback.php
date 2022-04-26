@@ -21,35 +21,11 @@ else{
     // echo "connect success";
 }
 
-// if($result[username]==null && false){
-//     echo "name null";
-// }
-// elseif(1==1 && false){
-//     echo "test null";
-// }
-// else{
-//     echo "输出了这个";
-// }
-
 // 查询
 $sql = "SELECT username,phone,gender,age FROM user";
 $res = mysql_query($sql,$conn);
 $result = mysql_fetch_array($res,MYSQL_ASSOC);
 
-// public function asciitostr($sacii){
-
-//     $asc_arr= str_split(strtolower($sacii),2);
-
-//     $str='';
-
-//     for($i=0;$i
-//         $str.=chr(hexdec($asc_arr[$i][1].$asc_arr[$i][0]));
-
-//     }
-
-//     return mb_convert_encoding($str,'UTF-8','GB2312');
-
-// }
 
 if($result[username]!=null && $result[phone]!=null && $result[gender]!=null && $result[age]!=null){
     $cmdname = 'C:/Users/nsus/AppData/Local/Programs/Python/Python38/python.exe SM2.py decrypt '.$result[username];
